@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "generator": "orbyt-research-distribution",
+  "target": "research",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "cbb674ed86d340f0d96313aa5fb507def79add4bd8007074aaf71ecf08f4b02c"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "76b0f7e5f500622915c215fdf9426cc01051d68bdc98ebbaf98e66a056eeef02"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "6ac8fa2cae2a15ab33163008d10afeb3d22c4187a53777756cc8bcf9e51c55d1"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3c5067f72b8fe7e9db27f64812833a66dea21137aa9a6a6d6d45a4feec92f85f"
+    },
+    {
+      "path": "index.json",
+      "sha256": "e7c176d79ebf448a0d2817676bb1342151fc04b49d91a0d296de521501e862ca"
+    },
+    {
+      "path": "notes/2026/agent-seat-completion.md",
+      "sha256": "2ad8c75f3ca60df5602900cfe06719df46e5cd4214821258a58e974cdc0f11a3"
+    },
+    {
+      "path": "notes/2026/agent-token-economics.md",
+      "sha256": "77f15f37d8ced20d95a060d1ec1f68c52b2dbf40c4c50394c3c71702e40d685c"
+    },
+    {
+      "path": "notes/2026/confidently-wrong.md",
+      "sha256": "b5c4b2a3dd1de7d07208b42320dde2825b55ffaac1cc84602bcd86cfdb83a5eb"
+    },
+    {
+      "path": "notes/2026/guard-harness.md",
+      "sha256": "7c400cdba82b1b6e515da6cb201da8e0ec5aab952fb5dc3b2486e19a6275005a"
+    },
+    {
+      "path": "notes/2026/model-upgrade-trial.md",
+      "sha256": "fb240a27f43999f1b544d74a0967d243b4d5b74ad2f01e87b9b8d9d8ab715de1"
+    },
+    {
+      "path": "notes/2026/single-agent-vs-team.md",
+      "sha256": "3892dd075c6976df00bbb86444a1d520d71055e59bd417ad53b3092c8613c972"
+    },
+    {
+      "path": "papers/agent-native-datasets/CHANGELOG.md",
+      "sha256": "bac799147b3863e1465e2febb55da9b980166b78f8df3b9d89bdc79bd5840e16"
+    },
+    {
+      "path": "papers/agent-native-datasets/CITATION.cff",
+      "sha256": "61af1e9ee5b2fdb0933637d7e500e640f2893cd02f528d9574da2ceaccd6a5f0"
+    },
+    {
+      "path": "papers/agent-native-datasets/README.md",
+      "sha256": "5bb5b7c771bc947189b5ba0e730daa713c052feb40c2b282ddefa15b5211e41f"
+    },
+    {
+      "path": "papers/agent-native-datasets/metadata.json",
+      "sha256": "c6d3896c2efd06afcaf37ce1280005e28bff7e6d2833c428c541e5fb0309c22e"
+    },
+    {
+      "path": "topics/field-notes.md",
+      "sha256": "9ee7389ad26cac70c4915184c7cb07d207f9215b680b42154b82a463c6f09541"
+    },
+    {
+      "path": "topics/papers.md",
+      "sha256": "ef7e1591f05241cad1b54267e99e6120ed4ded82e22187d11f82f474671022c6"
+    }
+  ]
+}

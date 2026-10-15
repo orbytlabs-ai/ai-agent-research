@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "This repository indexes separate publications. Cite the paper or field note you used: each carries its own citation in its file and in index.json."
+type: dataset
+title: "Orbyt Labs Research: index of papers and field notes"
+authors:
+  - family-names: "Bartak"
+    given-names: "Justin"
+url: "https://www.orbytlabs.ai/research"
