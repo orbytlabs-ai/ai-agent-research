@@ -2,17 +2,19 @@
 
 A field note from Orbyt Labs Research, by Justin Bartak.
 
-Version 1.0.0, content revised 2026-10-07. Measurement version 2.23.0, collected 2026-08-27 to 2026-10-07.
+Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
+
+Version 1.0.1, content revised 2026-10-07. Measurement version 2.23.0, collected 2026-08-27 to 2026-10-07.
 
 Canonical page: https://www.orbytlabs.ai/research/confidently-wrong
 
 ## Claim
 
-Of 96 distinct engineering failures logged by an AI-run organization as of Oct, 7 2026, 68 of 96 (71%) raised no error at all and were found only because someone checked an artifact directly, and 72 of 96 (75%) have a named automated countermeasure that exists in the repository.
+Of 96 distinct engineering failures logged by an AI-run organization as of 2026-10-07, 68 of 96 (71%) raised no error at all and were found only because someone checked an artifact directly, and 72 of 96 (75%) have a named automated countermeasure that exists in the repository.
 
 ## Measured
 
-Census of the logged failure corpus, Oct, 7 2026.
+Census of the logged failure corpus, 2026-10-07.
 
 Sample: 96 logged failures in one repository.
 
@@ -44,14 +46,28 @@ The sources name commands and files in Orbyt's private repository. They are reco
 - A guard existing is not a guard working. This project separately requires every detector to prove it can stay quiet on a clean input, which is a different measurement published separately.
 - No trend is claimed. The changelog carries every refresh, but a rising count is a growing log, not a rising failure rate.
 
-## Cite this
+## How to cite
 
-Bartak, J. (2026). 96 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, version 2.23.0. https://www.orbytlabs.ai/research/confidently-wrong
+Bartak, J. (2026). 96 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, measurement version 2.23.0. https://www.orbytlabs.ai/research/confidently-wrong
+
+```bibtex
+@misc{bartak2026confidentlywrong,
+  author    = {Bartak, J.},
+  title     = {{96 Ways the Agents Were Confidently Wrong}},
+  year      = {2026},
+  publisher = {Orbyt Labs Research},
+  note      = {Measurement version 2.23.0},
+  url       = {https://www.orbytlabs.ai/research/confidently-wrong}
+}
+```
 
 License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Reuse it with attribution.
 
+Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected record is published as a new version, and its changelog names what changed.
+
 ## Changelog
 
+- 1.0.1, content revised 2026-10-07 (patch): changed: claim; measured. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-10-07 (initial): first version of this record
 
 ---

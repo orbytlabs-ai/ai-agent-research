@@ -2,17 +2,19 @@
 
 A field note from Orbyt Labs Research, by Justin Bartak.
 
-Version 1.0.0, content revised 2026-09-26. Measurement version 1.23.0, collected 2026-08-27 to 2026-09-26.
+Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
+
+Version 1.0.1, content revised 2026-09-26. Measurement version 1.23.0, collected 2026-08-27 to 2026-09-26.
 
 Canonical page: https://www.orbytlabs.ai/research/agent-token-economics
 
 ## Claim
 
-Across 344 AI agent sessions and 45,876 turns measured on Sep, 26 2026, cache reads accounted for 78.1% of cost-weighted token spend and generated output for 10.6%, against an average of 341,348 tokens of context re-read on every single turn.
+Across 344 AI agent sessions and 45,876 turns measured on 2026-09-26, cache reads accounted for 78.1% of cost-weighted token spend and generated output for 10.6%, against an average of 341,348 tokens of context re-read on every single turn.
 
 ## Measured
 
-344 sessions and 45,876 turns, measured Sep, 26 2026.
+344 sessions and 45,876 turns, measured 2026-09-26.
 
 Sample: 344 sessions, 45,876 turns, one organization.
 
@@ -47,14 +49,28 @@ The sources name commands and files in Orbyt's private repository. They are reco
 - Cost-weighted share is not the same as opportunity. Output being 10.6% of spend does not establish that shortening output is the most effective available saving; it only refutes the claim that it is negligible.
 - No causal claim is made. This measures where tokens went, not which practices caused it.
 
-## Cite this
+## How to cite
 
-Bartak, J. (2026). The Cache-Read Tax. Orbyt Labs Research, version 1.23.0. https://www.orbytlabs.ai/research/agent-token-economics
+Bartak, J. (2026). The Cache-Read Tax. Orbyt Labs Research, measurement version 1.23.0. https://www.orbytlabs.ai/research/agent-token-economics
+
+```bibtex
+@misc{bartak2026agenttokeneconomics,
+  author    = {Bartak, J.},
+  title     = {{The Cache-Read Tax}},
+  year      = {2026},
+  publisher = {Orbyt Labs Research},
+  note      = {Measurement version 1.23.0},
+  url       = {https://www.orbytlabs.ai/research/agent-token-economics}
+}
+```
 
 License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Reuse it with attribution.
 
+Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected record is published as a new version, and its changelog names what changed.
+
 ## Changelog
 
+- 1.0.1, content revised 2026-09-26 (patch): changed: claim; measured. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-09-26 (initial): first version of this record
 
 ---

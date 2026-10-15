@@ -2,17 +2,19 @@
 
 A field note from Orbyt Labs Research, by Justin Bartak.
 
-Version 1.0.0, content revised 2026-10-03. Measurement version 1.1.0, collected 2026-09-17 to 2026-10-03.
+Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
+
+Version 1.0.1, content revised 2026-10-03. Measurement version 1.1.0, collected 2026-09-17 to 2026-10-03.
 
 Canonical page: https://www.orbytlabs.ai/research/model-upgrade-trial
 
 ## Claim
 
-On Oct, 3 2026, an agent reviewer accepted 3 of 3 reports generated with Codex configured for gpt-6-astra on Orbyt Labs' frozen dependency review. A subsequent trace check left execution claims unverified in 3 reports. This does not establish a model-upgrade win.
+On 2026-10-03, an agent reviewer accepted 3 of 3 reports generated with Codex configured for gpt-6-astra on Orbyt Labs' frozen dependency review. A subsequent trace check left execution claims unverified in 3 reports. This does not establish a model-upgrade win.
 
 ## Measured
 
-Original comparison: Sep, 17 2026. Astra follow-up: Oct, 3 2026.
+Original comparison: 2026-09-17. Astra follow-up: 2026-10-03.
 
 Sample: 3 Astra follow-up attempts; the earlier comparison retains 3 runs per Sonnet model.
 
@@ -63,7 +65,7 @@ The sources name commands and files in Orbyt's private repository. They are reco
 - Codex requested gpt-6-astra with high reasoning effort. Its arguments requested disabled network access, web search, apps and subagents. Provider identity in its CLI events: not reported; requested configuration recorded.
 - The substantive reviewer was a fresh claude-sonnet-5 agent session. It received shuffled report letters, the frozen evidence and the acceptance rule in a separate reading directory. Verdicts were locked before the letter map was opened.
 - The reviewer recorded 0 missing applicable findings and 0 unsupported claims. Successful executions with a report and no write-lane violation: 3 of 3. Files changed outside that lane: 0.
-- On Sep, 17 2026, the original comparison's reviewer accepted 0 of 3 claude-sonnet-4-5-20250929 reports and 0 of 3 claude-sonnet-5 reports. Its recorded candidate win remains no; those reports were not rerun or rescored for this follow-up.
+- On 2026-09-17, the original comparison's reviewer accepted 0 of 3 claude-sonnet-4-5-20250929 reports and 0 of 3 claude-sonnet-5 reports. Its recorded candidate win remains no; those reports were not rerun or rescored for this follow-up.
 
 ## Limitations
 
@@ -78,14 +80,28 @@ The sources name commands and files in Orbyt's private repository. They are reco
 - The first compatibility control failed before reaching the model because Codex could not initialize inside the outer sandbox. That attempt is retained. A permitted infrastructure retry passed the control before report generation began.
 - A second comparison block, the current model against claude-opus-5-5 on the same frozen packet under the same rule, is pre registered and partly run, and none of its reports has been read, so it has no result yet.
 
-## Cite this
+## How to cite
 
-Bartak, J. (2026). A Model Upgrade on a Frozen Dependency Review. Orbyt Labs Research, version 1.1.0. https://www.orbytlabs.ai/research/model-upgrade-trial
+Bartak, J. (2026). A Model Upgrade on a Frozen Dependency Review. Orbyt Labs Research, measurement version 1.1.0. https://www.orbytlabs.ai/research/model-upgrade-trial
+
+```bibtex
+@misc{bartak2026modelupgradetrial,
+  author    = {Bartak, J.},
+  title     = {{A Model Upgrade on a Frozen Dependency Review}},
+  year      = {2026},
+  publisher = {Orbyt Labs Research},
+  note      = {Measurement version 1.1.0},
+  url       = {https://www.orbytlabs.ai/research/model-upgrade-trial}
+}
+```
 
 License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Reuse it with attribution.
 
+Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected record is published as a new version, and its changelog names what changed.
+
 ## Changelog
 
+- 1.0.1, content revised 2026-10-03 (patch): changed: claim; measured; method. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-10-03 (initial): first version of this record
 
 ---

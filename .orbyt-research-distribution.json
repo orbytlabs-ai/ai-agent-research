@@ -5,55 +5,55 @@
   "files": [
     {
       "path": "CHANGELOG.md",
-      "sha256": "cbb674ed86d340f0d96313aa5fb507def79add4bd8007074aaf71ecf08f4b02c"
+      "sha256": "b432cfe822150035f202196b00917ad5f8c8710aa4296b0e229961b635c3913f"
     },
     {
       "path": "CITATION.cff",
-      "sha256": "76b0f7e5f500622915c215fdf9426cc01051d68bdc98ebbaf98e66a056eeef02"
+      "sha256": "26f3e539f070dadb2bc0a0c9c541ced9e0a123e5707d9b417b6197cb2a3961eb"
     },
     {
       "path": "LICENSE",
-      "sha256": "6ac8fa2cae2a15ab33163008d10afeb3d22c4187a53777756cc8bcf9e51c55d1"
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
     },
     {
       "path": "README.md",
-      "sha256": "60e65f66d26b4281233b6bc11fe3d7623e53bf3ed28dd96103e2db8c842140f6"
+      "sha256": "b7821a1bd9a92d7bb4b6705c787e7dcabb4588e0a35977a713125b5a38ae2681"
     },
     {
       "path": "index.json",
-      "sha256": "d15b141921eb05dd0e960c6beafe1e4e92a0d610c961119c89eb67701913b39c"
+      "sha256": "7066dcb86527c459774d5635551dca9c5b7698df9155cac002ca4c6e8db4524a"
     },
     {
       "path": "notes/2026/agent-seat-completion.md",
-      "sha256": "2ad8c75f3ca60df5602900cfe06719df46e5cd4214821258a58e974cdc0f11a3"
+      "sha256": "3d903e9431583dbe79f9000008a714e1a8ad4f2d9d584a67700dbd1db4d5eb4c"
     },
     {
       "path": "notes/2026/agent-token-economics.md",
-      "sha256": "77f15f37d8ced20d95a060d1ec1f68c52b2dbf40c4c50394c3c71702e40d685c"
+      "sha256": "b304e854cfc9ac4a0680c40d9a0161bbf8abb3723f8894dbeaa8d58500b25f63"
     },
     {
       "path": "notes/2026/confidently-wrong.md",
-      "sha256": "b5c4b2a3dd1de7d07208b42320dde2825b55ffaac1cc84602bcd86cfdb83a5eb"
+      "sha256": "3645b3af34b442f3cf0800e984c513bc34c83777c6e8b282b81eab58bfa20888"
     },
     {
       "path": "notes/2026/guard-harness.md",
-      "sha256": "7c400cdba82b1b6e515da6cb201da8e0ec5aab952fb5dc3b2486e19a6275005a"
+      "sha256": "0e0dbb1351ba0dcbefc7b4cb45a0ac0614e64efae6bf20075a68ef6fb23e20d0"
     },
     {
       "path": "notes/2026/model-upgrade-trial.md",
-      "sha256": "fb240a27f43999f1b544d74a0967d243b4d5b74ad2f01e87b9b8d9d8ab715de1"
+      "sha256": "f2aaa3bd40035ec3c94ce844cf53af827096a027699f3c0ef6e100d2c3e349e4"
     },
     {
       "path": "notes/2026/single-agent-vs-team.md",
-      "sha256": "3892dd075c6976df00bbb86444a1d520d71055e59bd417ad53b3092c8613c972"
+      "sha256": "d889af0d73a12c738e07f4878cee4a23fae8e89d1f2877657e238fde13217890"
     },
     {
       "path": "topics/field-notes.md",
-      "sha256": "9ee7389ad26cac70c4915184c7cb07d207f9215b680b42154b82a463c6f09541"
+      "sha256": "361e814947b7ae5390f524a98149ee5928c24d71384254c1c04d0f7c88844442"
     },
     {
       "path": "topics/papers.md",
-      "sha256": "ef7e1591f05241cad1b54267e99e6120ed4ded82e22187d11f82f474671022c6"
+      "sha256": "01ddd1b30b61a18f65b71c32d920938520638b417b74db83d97f7eb3f9f9c011"
     }
   ]
 }

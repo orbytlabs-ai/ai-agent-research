@@ -2,17 +2,19 @@
 
 A field note from Orbyt Labs Research, by Justin Bartak.
 
-Version 1.0.0, content revised 2026-10-08. Measurement version 1.0.0, collected 2026-09-17.
+Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
+
+Version 1.0.1, content revised 2026-10-08. Measurement version 1.0.0, collected 2026-09-17.
 
 Canonical page: https://www.orbytlabs.ai/research/single-agent-vs-team
 
 ## Claim
 
-On Sep, 17 2026, the single agent resolved 1 of 6 briefs and the team resolved 0 of 6. Team retained under the pre registered rule: no.
+On 2026-09-17, the single agent resolved 1 of 6 briefs and the team resolved 0 of 6. Team retained under the pre registered rule: no.
 
 ## Measured
 
-6 paired briefs and 12 attempts, measured Sep, 17 2026.
+6 paired briefs and 12 attempts, measured 2026-09-17.
 
 Sample: 6 briefs and 12 attempts on the same hypothetical feature.
 
@@ -59,14 +61,28 @@ The sources name commands and files in Orbyt's private repository. They are reco
 
 Every record behind this note, with a SHA-256 hash per file: https://www.orbytlabs.ai/research/single-agent-vs-team/evidence-2026-10-08/MANIFEST.json
 
-## Cite this
+## How to cite
 
-Bartak, J. (2026). A Single Agent and a Research Team on Equal Ceilings. Orbyt Labs Research, version 1.0.0. https://www.orbytlabs.ai/research/single-agent-vs-team
+Bartak, J. (2026). A Single Agent and a Research Team on Equal Ceilings. Orbyt Labs Research, measurement version 1.0.0. https://www.orbytlabs.ai/research/single-agent-vs-team
+
+```bibtex
+@misc{bartak2026singleagentvsteam,
+  author    = {Bartak, J.},
+  title     = {{A Single Agent and a Research Team on Equal Ceilings}},
+  year      = {2026},
+  publisher = {Orbyt Labs Research},
+  note      = {Measurement version 1.0.0},
+  url       = {https://www.orbytlabs.ai/research/single-agent-vs-team}
+}
+```
 
 License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Reuse it with attribution.
 
+Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected record is published as a new version, and its changelog names what changed.
+
 ## Changelog
 
+- 1.0.1, content revised 2026-10-08 (patch): changed: claim; measured. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-10-08 (initial): first version of this record
 
 ---

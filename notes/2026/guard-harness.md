@@ -2,17 +2,19 @@
 
 A field note from Orbyt Labs Research, by Justin Bartak.
 
-Version 1.0.0, content revised 2026-09-25. Measurement version 2.17.0, collected 2026-08-27 to 2026-09-25.
+Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
+
+Version 1.0.1, content revised 2026-09-25. Measurement version 2.17.0, collected 2026-08-27 to 2026-09-25.
 
 Canonical page: https://www.orbytlabs.ai/research/guard-harness
 
 ## Claim
 
-As of Sep, 25 2026, the Orbyt Labs repository enforces 118 automated guard scripts, of which 16 block a commit outright, and 104 of 104 (100%) guard test suites assert that the detector stays silent on a clean input rather than only firing on a bad one.
+As of 2026-09-25, the Orbyt Labs repository enforces 118 automated guard scripts, of which 16 block a commit outright, and 104 of 104 (100%) guard test suites assert that the detector stays silent on a clean input rather than only firing on a bad one.
 
 ## Measured
 
-Point-in-time census of the repository, Sep, 25 2026.
+Point-in-time census of the repository, 2026-09-25.
 
 Sample: 118 guard scripts and 104 guard test suites in one repository.
 
@@ -46,14 +48,28 @@ The sources name commands and files in Orbyt's private repository. They are reco
 - The stays-silent detector is deliberately conservative and its author documents two earlier drafts that were wrong in opposite directions, one matching loose prose and one omitting toEqual([]). It is a warning rather than a blocking gate for that reason.
 - Counting guards is not measuring defects caught. This entry does not claim the 118 guards prevented 118 problems.
 
-## Cite this
+## How to cite
 
-Bartak, J. (2026). Every Guard Must Prove It Can Stay Silent. Orbyt Labs Research, version 2.17.0. https://www.orbytlabs.ai/research/guard-harness
+Bartak, J. (2026). Every Guard Must Prove It Can Stay Silent. Orbyt Labs Research, measurement version 2.17.0. https://www.orbytlabs.ai/research/guard-harness
+
+```bibtex
+@misc{bartak2026guardharness,
+  author    = {Bartak, J.},
+  title     = {{Every Guard Must Prove It Can Stay Silent}},
+  year      = {2026},
+  publisher = {Orbyt Labs Research},
+  note      = {Measurement version 2.17.0},
+  url       = {https://www.orbytlabs.ai/research/guard-harness}
+}
+```
 
 License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Reuse it with attribution.
 
+Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected record is published as a new version, and its changelog names what changed.
+
 ## Changelog
 
+- 1.0.1, content revised 2026-09-25 (patch): changed: claim; measured. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-09-25 (initial): first version of this record
 
 ---

@@ -12,9 +12,9 @@
       "path": "README.md",
       "first_published": "2026-04-25",
       "revised": "2026-09-18",
-      "version": "1.0.0",
-      "tag": "v1.0.0",
-      "record_sha256": "28373f964ec5b29cc545e9a49d82f39764a7add929ae524516ff334ced549245",
+      "version": "1.0.1",
+      "tag": "v1.0.1",
+      "record_sha256": "8b1a9ce229d4befd5ceb78bbe9c42389531159a0d8c4af9be7972b591e6f09c0",
       "doi": "10.5281/zenodo.19754393",
       "citation": "Bartak, J. (2026). Agent-Native Dataset Design: Schema, Licensing, and Distribution Patterns for LLM Retrieval. Zenodo. https://doi.org/10.5281/zenodo.19754393",
       "history": [
@@ -23,12 +23,23 @@
           "date": "2026-09-18",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-18",
+          "kind": "patch",
+          "changed": [
+            "artifact type",
+            "keywords",
+            "measured"
+          ],
+          "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
         }
       ],
       "record": {
         "title": "Agent-Native Dataset Design: Schema, Licensing, and Distribution Patterns for LLM Retrieval",
         "description": "Schema, licensing, and distribution patterns for datasets that are read by LLM agents rather than crawled by search engines. Proposes agent-native dataset design as a category distinct from training corpora and traditional research datasets.",
-        "measured": "Published Apr, 25 2026. Preprint on Zenodo; evaluation code is private, available on request.",
+        "measured": "Published 2026-04-25. Preprint on Zenodo; evaluation code is private, available on request.",
         "authors": [
           {
             "givenNames": "Justin",
@@ -69,6 +80,17 @@
             "body": "Where retrieval discovers Orbyt at non-floor rates (GPT-4o + web_search), the cited URLs are heavily skewed toward schema-rich routes (/salaries, /orbyt-intelligence) over prose routes (/blog, /guides). The schema effect manifests conditionally on indexation."
           }
         ],
+        "artifact_type": "Preprint",
+        "keywords": [
+          "agent-native dataset design",
+          "retrieval-augmented generation",
+          "LLM retrieval evaluation",
+          "schema.org dataset",
+          "Model Context Protocol",
+          "llms.txt",
+          "open data publishing",
+          "compensation data"
+        ],
         "license": {
           "label": "CC BY 4.0",
           "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -98,9 +120,9 @@
       "path": "README.md",
       "first_published": "2026-09-03",
       "revised": "2026-09-18",
-      "version": "1.0.0",
-      "tag": "v1.0.0",
-      "record_sha256": "e7d1e76267325c2fa761b1b5e71c548ad408f7203999193b89bb2f15453341f1",
+      "version": "1.0.1",
+      "tag": "v1.0.1",
+      "record_sha256": "7eeab1ea1cea4bbfbd5048f3b6f957e35d08ae9d444556dfa34ef71268fea06a",
       "doi": "10.5281/zenodo.22683647",
       "citation": "Bartak, J. (2026). Governing an Agent Leadership Team: Guardrail, Kill-Switch, and Liveness Patterns from a One-Human Autonomous Organization (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22683647",
       "history": [
@@ -109,12 +131,25 @@
           "date": "2026-09-18",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-18",
+          "kind": "patch",
+          "changed": [
+            "artifact type",
+            "data",
+            "findings",
+            "keywords",
+            "measured"
+          ],
+          "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
         }
       ],
       "record": {
         "title": "Governing an Agent Leadership Team: Guardrail, Kill-Switch, and Liveness Patterns from a One-Human Autonomous Organization",
         "description": "Guardrail, kill-switch, and liveness patterns from a company run by twelve agent seats under one human, each seat one agent with a written charter. Three guardrail tiers, a single-file kill switch that stops the whole org, positive-observation liveness, and a published corpus of 66 documented failures, half of them failures of the instruments.",
-        "measured": "Preprint published Sep, 2 2026 on this site. Zenodo deposit landed Sep, 9 2026, DOI 10.5281/zenodo.22683647.",
+        "measured": "Preprint published 2026-09-02 on this site. Zenodo deposit landed 2026-09-09, DOI 10.5281/zenodo.22683647.",
         "authors": [
           {
             "givenNames": "Justin",
@@ -141,7 +176,7 @@
           },
           {
             "title": "The seats completed 84.6 percent of 65 runs against a frozen 80.0 percent baseline.",
-            "body": "The fixed study population contains 65 runs from Jul, 21 2026 through Sep, 1 2026. Of these, 55 completed and 10 failed or were rejected. The rows record 47 discards. The completion rate is 84.6 percent, rounded from 55 divided by 65. The live aggregate includes later runs and the baseline frozen on Aug, 11 2026."
+            "body": "The fixed study population contains 65 runs from 2026-07-21 through 2026-09-01. Of these, 55 completed and 10 failed or were rejected. The rows record 47 discards. The completion rate is 84.6 percent, rounded from 55 divided by 65. The live aggregate includes later runs and the baseline frozen on 2026-08-11."
           },
           {
             "title": "The organization kill switch was pulled exactly once, and 45 decisions went to an append-only log.",
@@ -151,6 +186,17 @@
             "title": "The design law that survived is positive observation.",
             "body": "A control counts as live only when its refusal has been observed, and a monitor that could not look reports NOT OBSERVED rather than clean. The fence fails unless it watches a real denial, a canary watches the fence, and the dead-man switch judges run conclusions rather than the ledger the watched system writes."
           }
+        ],
+        "artifact_type": "Preprint",
+        "keywords": [
+          "agent governance",
+          "multi-agent systems",
+          "autonomous organizations",
+          "guardrails",
+          "kill switch",
+          "liveness",
+          "failure corpus",
+          "LLM agents"
         ],
         "license": {
           "label": "CC BY 4.0",
@@ -174,19 +220,27 @@
             "path": "data/failure-corpus-2026-09-02.json",
             "label": "The failure corpus exactly as the paper read it",
             "sha256": "efbe0e55e43415c514e187c81b1ab44ab36487dba993860bb7c37e290148f070",
-            "source_url": "https://www.orbytlabs.ai/research/agent-leadership-governance/failure-corpus-2026-09-02.json"
+            "source_url": "https://www.orbytlabs.ai/research/agent-leadership-governance/failure-corpus-2026-09-02.json",
+            "what": "Documented failure modes from a production codebase operated by AI agents, each one recorded when it bit, classified, and where a countermeasure was mechanized, linked to the countermeasure that now prevents it.",
+            "count": 66,
+            "license": "CC BY 4.0, attribution required"
           },
           {
             "path": "data/independent-coding-2026-09-13.json",
             "label": "The independent blind coding of the same corpus",
             "sha256": "1aca107bdd71f371ac74895f4444e22befe57380d0482bc2fe45252efa6bc297",
-            "source_url": "https://www.orbytlabs.ai/research/agent-leadership-governance/independent-coding-2026-09-13.json"
+            "source_url": "https://www.orbytlabs.ai/research/agent-leadership-governance/independent-coding-2026-09-13.json",
+            "what": "A second, independent rater classified every item of the frozen study input of the paper 'Governing an Agent Leadership Team' into the dataset's three-class taxonomy, blind to the published class. This file holds the instructions verbatim, the rater's full coding with a reason per item, the agreement with the published coding, Cohen's kappa with its formula, the confusion matrix, and every disagreement.",
+            "license": "CC BY 4.0"
           },
           {
             "path": "data/study-runs-2026-09-15.json",
             "label": "The fixed study population of seat runs",
             "sha256": "c41614ac26e5162d9569be200c28b05edb07dc634e8969324f0526c4da2b11c2",
-            "source_url": "https://www.orbytlabs.ai/research/agent-leadership-governance/study-runs-2026-09-15.json"
+            "source_url": "https://www.orbytlabs.ai/research/agent-leadership-governance/study-runs-2026-09-15.json",
+            "what": "A fixed set of study runs that reproduces the governance paper's run totals.",
+            "count": 65,
+            "license": "CC BY 4.0"
           }
         ]
       }
@@ -202,9 +256,9 @@
       "path": "notes/2026/guard-harness.md",
       "first_published": "2026-09-25",
       "revised": "2026-09-25",
-      "version": "1.0.0",
-      "tag": "guard-harness-v1.0.0",
-      "record_sha256": "742aac45e4dde09f1d8b7534d3af52808a83dd93cc66295cc68756f355e84370",
+      "version": "1.0.1",
+      "tag": "guard-harness-v1.0.1",
+      "record_sha256": "6ee9564024d038d15e6c1be8bf315e498acc8f78a94bd07ca5866c6e88727099",
       "citation": "Bartak, J. (2026). Every Guard Must Prove It Can Stay Silent. Orbyt Labs Research, version 2.17.0. https://www.orbytlabs.ai/research/guard-harness",
       "history": [
         {
@@ -212,13 +266,23 @@
           "date": "2026-09-25",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-25",
+          "kind": "patch",
+          "changed": [
+            "claim",
+            "measured"
+          ],
+          "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
         }
       ],
       "record": {
         "title": "Every Guard Must Prove It Can Stay Silent",
         "description": "A census of the automated guard harness in a repository where AI agents write most of the code: how many detectors exist, how many block a commit, and how many prove they can stay quiet on a clean input rather than only fire on a bad one.",
-        "measured": "Point-in-time census of the repository, Sep, 25 2026.",
-        "claim": "As of Sep, 25 2026, the Orbyt Labs repository enforces 118 automated guard scripts, of which 16 block a commit outright, and 104 of 104 (100%) guard test suites assert that the detector stays silent on a clean input rather than only firing on a bad one.",
+        "measured": "Point-in-time census of the repository, 2026-09-25.",
+        "claim": "As of 2026-09-25, the Orbyt Labs repository enforces 118 automated guard scripts, of which 16 block a commit outright, and 104 of 104 (100%) guard test suites assert that the detector stays silent on a clean input rather than only firing on a bad one.",
         "sample_size": "118 guard scripts and 104 guard test suites in one repository",
         "collection_start": "2026-08-27",
         "collection_end": "2026-09-25",
@@ -295,9 +359,9 @@
       "path": "notes/2026/agent-token-economics.md",
       "first_published": "2026-09-26",
       "revised": "2026-09-26",
-      "version": "1.0.0",
-      "tag": "agent-token-economics-v1.0.0",
-      "record_sha256": "3d16855c16b39937219395a6702ef0c35333393b23b6ecd7817eecaa2d323694",
+      "version": "1.0.1",
+      "tag": "agent-token-economics-v1.0.1",
+      "record_sha256": "d32fe01adcab452c1fb1ca3c6f50722544afe117d636757f11cb81bf4c32eda9",
       "citation": "Bartak, J. (2026). The Cache-Read Tax. Orbyt Labs Research, version 1.23.0. https://www.orbytlabs.ai/research/agent-token-economics",
       "history": [
         {
@@ -305,13 +369,23 @@
           "date": "2026-09-26",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-26",
+          "kind": "patch",
+          "changed": [
+            "claim",
+            "measured"
+          ],
+          "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
         }
       ],
       "record": {
         "title": "The Cache-Read Tax",
         "description": "Where the tokens actually go when AI agents do the engineering. Across 344 sessions, context re-read dominates spend, and the naive ratio that made generated output look like rounding error is the wrong measurement.",
-        "measured": "344 sessions and 45,876 turns, measured Sep, 26 2026.",
-        "claim": "Across 344 AI agent sessions and 45,876 turns measured on Sep, 26 2026, cache reads accounted for 78.1% of cost-weighted token spend and generated output for 10.6%, against an average of 341,348 tokens of context re-read on every single turn.",
+        "measured": "344 sessions and 45,876 turns, measured 2026-09-26.",
+        "claim": "Across 344 AI agent sessions and 45,876 turns measured on 2026-09-26, cache reads accounted for 78.1% of cost-weighted token spend and generated output for 10.6%, against an average of 341,348 tokens of context re-read on every single turn.",
         "sample_size": "344 sessions, 45,876 turns, one organization",
         "collection_start": "2026-08-27",
         "collection_end": "2026-09-26",
@@ -393,9 +467,9 @@
       "path": "notes/2026/confidently-wrong.md",
       "first_published": "2026-10-07",
       "revised": "2026-10-07",
-      "version": "1.0.0",
-      "tag": "confidently-wrong-v1.0.0",
-      "record_sha256": "bc5c7a281e200988387f3f93515c735825711eaa28c2a652fa8b7b74cec6010e",
+      "version": "1.0.1",
+      "tag": "confidently-wrong-v1.0.1",
+      "record_sha256": "0a9a144a38aa2b7523de636ef098dbad16509d117c7ab25274ab32fdcd2c4140",
       "citation": "Bartak, J. (2026). 96 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, version 2.23.0. https://www.orbytlabs.ai/research/confidently-wrong",
       "history": [
         {
@@ -403,13 +477,23 @@
           "date": "2026-10-07",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-07",
+          "kind": "patch",
+          "changed": [
+            "claim",
+            "measured"
+          ],
+          "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
         }
       ],
       "record": {
         "title": "96 Ways the Agents Were Confidently Wrong",
         "description": "A catalogue of every distinct failure this AI-run engineering org has logged, and the guard built in response to each. The dominant failure shape is not a crash. It is a system reporting success while doing nothing.",
-        "measured": "Census of the logged failure corpus, Oct, 7 2026.",
-        "claim": "Of 96 distinct engineering failures logged by an AI-run organization as of Oct, 7 2026, 68 of 96 (71%) raised no error at all and were found only because someone checked an artifact directly, and 72 of 96 (75%) have a named automated countermeasure that exists in the repository.",
+        "measured": "Census of the logged failure corpus, 2026-10-07.",
+        "claim": "Of 96 distinct engineering failures logged by an AI-run organization as of 2026-10-07, 68 of 96 (71%) raised no error at all and were found only because someone checked an artifact directly, and 72 of 96 (75%) have a named automated countermeasure that exists in the repository.",
         "sample_size": "96 logged failures in one repository",
         "collection_start": "2026-08-27",
         "collection_end": "2026-10-07",
@@ -476,9 +560,9 @@
       "path": "notes/2026/agent-seat-completion.md",
       "first_published": "2026-09-26",
       "revised": "2026-09-26",
-      "version": "1.0.0",
-      "tag": "agent-seat-completion-v1.0.0",
-      "record_sha256": "3257214ed9777121f2f4a81742463b0e6d42e2a3f48f2094baddb6f040b6d5cb",
+      "version": "1.0.1",
+      "tag": "agent-seat-completion-v1.0.1",
+      "record_sha256": "42325b52f2fbb617a1ed00a446f641489d791b9658fd4bdee212b0f1bc9b5596",
       "citation": "Bartak, J. (2026). What an Agent Seat Actually Completes. Orbyt Labs Research, version 1.10.0. https://www.orbytlabs.ai/research/agent-seat-completion",
       "history": [
         {
@@ -486,13 +570,26 @@
           "date": "2026-09-26",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-26",
+          "kind": "patch",
+          "changed": [
+            "claim",
+            "measured",
+            "measurement \"First recorded run\" from 21 July 2026 to 2026-07-21",
+            "measurement \"Last recorded run\" from 26 September 2026 to 2026-09-26",
+            "method"
+          ],
+          "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
         }
       ],
       "record": {
         "title": "What an Agent Seat Actually Completes",
         "description": "The run ledger of the AI agent seats that operate Orbyt Labs, with its denominator: every recorded run, how many passed the completion gate (a check of how the run ended, then the guards and the commit), how many the guards refused, and how many files an agent changed outside its lane (the set of files it may write) and lost before commit. Measured against a frozen baseline, refreshed on a schedule.",
-        "measured": "106 runs across 9 seats, Jul, 21 2026 to Sep, 26 2026, read Sep, 26 2026.",
-        "claim": "Across 106 recorded runs of 9 AI agent seats operating Orbyt Labs between Jul, 21 2026 and Sep, 26 2026, 91 passed the workflow's completion gate (86%), 15 were refused by it, and 73 files an agent changed outside its lane were erased before commit; the frozen Q3 2026 baseline was 80.0% on 30 runs.",
+        "measured": "106 runs across 9 seats, 2026-07-21 to 2026-09-26, read 2026-09-26.",
+        "claim": "Across 106 recorded runs of 9 AI agent seats operating Orbyt Labs between 2026-07-21 and 2026-09-26, 91 passed the workflow's completion gate (86%), 15 were refused by it, and 73 files an agent changed outside its lane were erased before commit; the frozen Q3 2026 baseline was 80.0% on 30 runs.",
         "sample_size": "106 recorded runs of 9 seats in one organization",
         "collection_start": "2026-09-11",
         "collection_end": "2026-09-26",
@@ -535,12 +632,12 @@
           },
           {
             "metric": "First recorded run",
-            "value": "21 July 2026",
+            "value": "2026-07-21",
             "source": "same file, earliest firstRun"
           },
           {
             "metric": "Last recorded run",
-            "value": "26 September 2026",
+            "value": "2026-09-26",
             "source": "same file, latest lastRun"
           },
           {
@@ -558,7 +655,7 @@
           "Every figure is read from the organization's committed per-seat run ledger (docs/org/stats/<seat>.jsonl, aggregated into public/autonomy-ledger.json by generate-stats.cjs at every commit). A run is one scheduled or dispatched execution of a seat's workflow; the ledger row is written by the workflow itself, not by the agent.",
           "Completion means the run's output survived the workflow's completion gate (a check of how the agent's run ended: its exit, its result and its turns against its cap), the guard gauntlet, and the commit. Since decision D-0061, in September 2026, the completion line a seat prints is recorded as its claim rather than required; runs before that decision also had to print it. A run whose output the guards refused is a failure. Rows recording that no run happened (skip: nothing to do; halted: a kill switch; infrastructure: the org could not run) are counted separately and sit on neither side of the rate.",
           "A discard is a file the agent changed outside its effective keep set, erased before the commit rather than shipped. It is an aggregate counter across runs and a different unit from a failure: it says the agent reached outside its lane, not that its work was rejected.",
-          "The baseline is the ledger as first published on Aug, 11 2026 (30 runs, 80.0% completion), frozen on purpose and never regenerated, so every later reading is measured against the same origin rather than against a moving average.",
+          "The baseline is the ledger as first published on 2026-08-11 (30 runs, 80.0% completion), frozen on purpose and never regenerated, so every later reading is measured against the same origin rather than against a moving average.",
           "Failures are printed, never netted out. The rate is completions divided by runs, and both numbers are on the page."
         ],
         "limitations": [
@@ -589,9 +686,9 @@
       "path": "notes/2026/model-upgrade-trial.md",
       "first_published": "2026-10-03",
       "revised": "2026-10-03",
-      "version": "1.0.0",
-      "tag": "model-upgrade-trial-v1.0.0",
-      "record_sha256": "bbb1c33d0cdec07bd4a34ff5305104cd3a02a707a9d3205c8e06743599987d60",
+      "version": "1.0.1",
+      "tag": "model-upgrade-trial-v1.0.1",
+      "record_sha256": "348271688517bea1930a56ff84a7ec61b8ed9ba53240eb139c9097000c4ca281",
       "citation": "Bartak, J. (2026). A Model Upgrade on a Frozen Dependency Review. Orbyt Labs Research, version 1.1.0. https://www.orbytlabs.ai/research/model-upgrade-trial",
       "history": [
         {
@@ -599,13 +696,24 @@
           "date": "2026-10-03",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-03",
+          "kind": "patch",
+          "changed": [
+            "claim",
+            "measured",
+            "method"
+          ],
+          "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
         }
       ],
       "record": {
         "title": "A Model Upgrade on a Frozen Dependency Review",
         "description": "Astra ran the original frozen dependency review 3 times. Its agent-reviewed results sit beside the earlier Sonnet comparison, with the execution differences stated.",
-        "measured": "Original comparison: Sep, 17 2026. Astra follow-up: Oct, 3 2026.",
-        "claim": "On Oct, 3 2026, an agent reviewer accepted 3 of 3 reports generated with Codex configured for gpt-6-astra on Orbyt Labs' frozen dependency review. A subsequent trace check left execution claims unverified in 3 reports. This does not establish a model-upgrade win.",
+        "measured": "Original comparison: 2026-09-17. Astra follow-up: 2026-10-03.",
+        "claim": "On 2026-10-03, an agent reviewer accepted 3 of 3 reports generated with Codex configured for gpt-6-astra on Orbyt Labs' frozen dependency review. A subsequent trace check left execution claims unverified in 3 reports. This does not establish a model-upgrade win.",
         "sample_size": "3 Astra follow-up attempts; the earlier comparison retains 3 runs per Sonnet model",
         "collection_start": "2026-09-17",
         "collection_end": "2026-10-03",
@@ -787,7 +895,7 @@
           "Codex requested gpt-6-astra with high reasoning effort. Its arguments requested disabled network access, web search, apps and subagents. Provider identity in its CLI events: not reported; requested configuration recorded.",
           "The substantive reviewer was a fresh claude-sonnet-5 agent session. It received shuffled report letters, the frozen evidence and the acceptance rule in a separate reading directory. Verdicts were locked before the letter map was opened.",
           "The reviewer recorded 0 missing applicable findings and 0 unsupported claims. Successful executions with a report and no write-lane violation: 3 of 3. Files changed outside that lane: 0.",
-          "On Sep, 17 2026, the original comparison's reviewer accepted 0 of 3 claude-sonnet-4-5-20250929 reports and 0 of 3 claude-sonnet-5 reports. Its recorded candidate win remains no; those reports were not rerun or rescored for this follow-up."
+          "On 2026-09-17, the original comparison's reviewer accepted 0 of 3 claude-sonnet-4-5-20250929 reports and 0 of 3 claude-sonnet-5 reports. Its recorded candidate win remains no; those reports were not rerun or rescored for this follow-up."
         ],
         "limitations": [
           "One task at one organization, with 3 Astra attempts. The historical Sonnet runs are context, not a contemporaneous control. This does not establish that one model is better across other tasks or companies.",
@@ -822,9 +930,9 @@
       "path": "notes/2026/single-agent-vs-team.md",
       "first_published": "2026-09-17",
       "revised": "2026-10-08",
-      "version": "1.0.0",
-      "tag": "single-agent-vs-team-v1.0.0",
-      "record_sha256": "7b9a9f060d54c1ef95903d95e0b7378da7c87dfce639d7cf97bf6cffbefbef65",
+      "version": "1.0.1",
+      "tag": "single-agent-vs-team-v1.0.1",
+      "record_sha256": "f071c89d3744fa97b40288cb5206251140985574f775b2f22bece5033cfe93a8",
       "citation": "Bartak, J. (2026). A Single Agent and a Research Team on Equal Ceilings. Orbyt Labs Research, version 1.0.0. https://www.orbytlabs.ai/research/single-agent-vs-team",
       "history": [
         {
@@ -832,13 +940,23 @@
           "date": "2026-10-08",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-08",
+          "kind": "patch",
+          "changed": [
+            "claim",
+            "measured"
+          ],
+          "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
         }
       ],
       "record": {
         "title": "A Single Agent and a Research Team on Equal Ceilings",
         "description": "A single agent and a research team attempted the same 6 competitor research briefs. Resolution, accepted findings and list price cost are measured across 12 attempts.",
-        "measured": "6 paired briefs and 12 attempts, measured Sep, 17 2026.",
-        "claim": "On Sep, 17 2026, the single agent resolved 1 of 6 briefs and the team resolved 0 of 6. Team retained under the pre registered rule: no.",
+        "measured": "6 paired briefs and 12 attempts, measured 2026-09-17.",
+        "claim": "On 2026-09-17, the single agent resolved 1 of 6 briefs and the team resolved 0 of 6. Team retained under the pre registered rule: no.",
         "sample_size": "6 briefs and 12 attempts on the same hypothetical feature",
         "collection_start": "2026-09-17",
         "collection_end": "2026-09-17",
