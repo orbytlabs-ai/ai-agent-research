@@ -6,7 +6,7 @@ The papers and field notes Orbyt Labs publishes at https://www.orbytlabs.ai/rese
 
 | Title | Published | Version | DOI | Here |
 | --- | --- | --- | --- | --- |
-| [Agent-Native Dataset Design: Schema, Licensing, and Distribution Patterns for LLM Retrieval](https://www.orbytlabs.ai/research/agent-native-datasets) | 2026-04-25 | 1.0.0 | [10.5281/zenodo.19754393](https://doi.org/10.5281/zenodo.19754393) | [papers/agent-native-datasets/README.md](papers/agent-native-datasets/README.md) |
+| [Agent-Native Dataset Design: Schema, Licensing, and Distribution Patterns for LLM Retrieval](https://www.orbytlabs.ai/research/agent-native-datasets) | 2026-04-25 | 1.0.0 | [10.5281/zenodo.19754393](https://doi.org/10.5281/zenodo.19754393) | repository `agent-native-datasets` |
 | [Governing an Agent Leadership Team: Guardrail, Kill-Switch, and Liveness Patterns from a One-Human Autonomous Organization](https://www.orbytlabs.ai/research/agent-leadership-governance) | 2026-09-03 | 1.0.0 | [10.5281/zenodo.22683647](https://doi.org/10.5281/zenodo.22683647) | repository `agent-leadership-governance` |
 
 ## Field notes

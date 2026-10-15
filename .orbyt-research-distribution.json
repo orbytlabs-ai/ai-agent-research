@@ -17,11 +17,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "3c5067f72b8fe7e9db27f64812833a66dea21137aa9a6a6d6d45a4feec92f85f"
+      "sha256": "60e65f66d26b4281233b6bc11fe3d7623e53bf3ed28dd96103e2db8c842140f6"
     },
     {
       "path": "index.json",
-      "sha256": "e7c176d79ebf448a0d2817676bb1342151fc04b49d91a0d296de521501e862ca"
+      "sha256": "d15b141921eb05dd0e960c6beafe1e4e92a0d610c961119c89eb67701913b39c"
     },
     {
       "path": "notes/2026/agent-seat-completion.md",
@@ -46,22 +46,6 @@
     {
       "path": "notes/2026/single-agent-vs-team.md",
       "sha256": "3892dd075c6976df00bbb86444a1d520d71055e59bd417ad53b3092c8613c972"
-    },
-    {
-      "path": "papers/agent-native-datasets/CHANGELOG.md",
-      "sha256": "bac799147b3863e1465e2febb55da9b980166b78f8df3b9d89bdc79bd5840e16"
-    },
-    {
-      "path": "papers/agent-native-datasets/CITATION.cff",
-      "sha256": "61af1e9ee5b2fdb0933637d7e500e640f2893cd02f528d9574da2ceaccd6a5f0"
-    },
-    {
-      "path": "papers/agent-native-datasets/README.md",
-      "sha256": "5bb5b7c771bc947189b5ba0e730daa713c052feb40c2b282ddefa15b5211e41f"
-    },
-    {
-      "path": "papers/agent-native-datasets/metadata.json",
-      "sha256": "c6d3896c2efd06afcaf37ce1280005e28bff7e6d2833c428c541e5fb0309c22e"
     },
     {
       "path": "topics/field-notes.md",
