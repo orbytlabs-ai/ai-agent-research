@@ -48,6 +48,14 @@
       "sha256": "d889af0d73a12c738e07f4878cee4a23fae8e89d1f2877657e238fde13217890"
     },
     {
+      "path": "provenance/README.md",
+      "sha256": "5fbf7cf54cd68352a9bb48d422eff5fba3473189b3cb6eb5f44f7186ec31206a"
+    },
+    {
+      "path": "provenance/owner.allowed_signers",
+      "sha256": "cd9aff505b80b59bc82758fc60165438684028b2dbc5843a7f160ceaec0403dc"
+    },
+    {
       "path": "topics/field-notes.md",
       "sha256": "361e814947b7ae5390f524a98149ee5928c24d71384254c1c04d0f7c88844442"
     },
