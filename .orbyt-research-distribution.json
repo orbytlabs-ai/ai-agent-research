@@ -5,7 +5,7 @@
   "files": [
     {
       "path": "CHANGELOG.md",
-      "sha256": "b432cfe822150035f202196b00917ad5f8c8710aa4296b0e229961b635c3913f"
+      "sha256": "e6cc696686d991422ca35be35c80b04047f2f66ad7e05a6908cc7eccc7d59ce5"
     },
     {
       "path": "CITATION.cff",
@@ -17,11 +17,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "b7821a1bd9a92d7bb4b6705c787e7dcabb4588e0a35977a713125b5a38ae2681"
+      "sha256": "905e8043cf6c2c41465f9fabca5a10d586d2ecb54dc42f63a84afc8acb85cce8"
     },
     {
       "path": "index.json",
-      "sha256": "7066dcb86527c459774d5635551dca9c5b7698df9155cac002ca4c6e8db4524a"
+      "sha256": "088cb68c7833c85055281a20171b95256462c0c175dcaca615337b7083573897"
     },
     {
       "path": "notes/2026/agent-seat-completion.md",
@@ -34,6 +34,14 @@
     {
       "path": "notes/2026/confidently-wrong.md",
       "sha256": "3645b3af34b442f3cf0800e984c513bc34c83777c6e8b282b81eab58bfa20888"
+    },
+    {
+      "path": "notes/2026/did-the-machine-learn.md",
+      "sha256": "c1f4e3d5c3ae249a07adb40006a31c9d339f464010e7c6da48e6ed656731611f"
+    },
+    {
+      "path": "notes/2026/governing-self-repair.md",
+      "sha256": "bb3cd37a97cb86a17880c2552f1850d3dd7a79595ca7ddba28514858d10d428e"
     },
     {
       "path": "notes/2026/guard-harness.md",
@@ -64,6 +72,10 @@
       "sha256": "db0248a39e12b4697ba1971b974469dc2d2c3e15efbb94412a0c7f7429593e45"
     },
     {
+      "path": "provenance/manifests/2026-10-21.json",
+      "sha256": "b8afdef625034cbceac071bca46d16cf055ea389b717d19deb4bb5a0f0f6a8fe"
+    },
+    {
       "path": "provenance/owner.allowed_signers",
       "sha256": "cd9aff505b80b59bc82758fc60165438684028b2dbc5843a7f160ceaec0403dc"
     },
@@ -89,7 +101,11 @@
     },
     {
       "path": "provenance/stamps/2026-10-20.ots",
-      "sha256": "e37ae46760a14e7ff70f17a604f1ff38d263c0b2db1c8b2b257aa03096857196"
+      "sha256": "043a4dfd2c730412723dfb5c62ce4991c910ee0d8d8556fc9d263bbb283c0903"
+    },
+    {
+      "path": "provenance/stamps/2026-10-21.ots",
+      "sha256": "70f948ddea1b78d84302b5ab1c4416ca0395e05fa8c91e1a2c4c44945336977f"
     },
     {
       "path": "topics/field-notes.md",
@@ -98,6 +114,10 @@
     {
       "path": "topics/papers.md",
       "sha256": "01ddd1b30b61a18f65b71c32d920938520638b417b74db83d97f7eb3f9f9c011"
+    },
+    {
+      "path": "topics/preregistrations.md",
+      "sha256": "25d88fd87ad70cb5ea00b7341c9bbc5f63015f50beefcb3fa10bcc035f117c24"
     }
   ]
 }

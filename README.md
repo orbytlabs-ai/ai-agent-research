@@ -26,6 +26,13 @@ Browse by kind in [topics/](topics/). Every list below is newest first.
 | [Every Guard Must Prove It Can Stay Silent](https://www.orbytlabs.ai/research/guard-harness) | 2026-09-25 | 1.0.1 | [notes/2026/guard-harness.md](notes/2026/guard-harness.md) |
 | [A Single Agent and a Research Team on Equal Ceilings](https://www.orbytlabs.ai/research/single-agent-vs-team) | 2026-09-17 | 1.0.1 | [notes/2026/single-agent-vs-team.md](notes/2026/single-agent-vs-team.md) |
 
+## Preregistrations
+
+Published before any result. Each reports no finding.
+
+- [Did the Machine Learn From Its Last Failure?](https://www.orbytlabs.ai/research/did-the-machine-learn), version 1.0.0: [notes/2026/did-the-machine-learn.md](notes/2026/did-the-machine-learn.md)
+- [Governing a Self-Repairing Agent Organization](https://www.orbytlabs.ai/research/governing-self-repair), version 1.0.0: [notes/2026/governing-self-repair.md](notes/2026/governing-self-repair.md)
+
 ## How to cite
 
 Cite the publication you used, not this repository. Each field note's file carries its APA-style line and BibTeX under How to cite. Each paper's repository carries its own, with a CITATION.cff that GitHub turns into a citation. index.json carries every citation as data.

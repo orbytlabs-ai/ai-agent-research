@@ -4,6 +4,8 @@ Every version of every entry, newest first, by the date its content was revised 
 
 - content revised 2026-10-08: A Single Agent and a Research Team on Equal Ceilings 1.0.1 (patch): claim; measured
 - content revised 2026-10-08: A Single Agent and a Research Team on Equal Ceilings 1.0.0 (initial)
+- content revised 2026-10-08: Did the Machine Learn From Its Last Failure? 1.0.0 (initial)
+- content revised 2026-10-08: Governing a Self-Repairing Agent Organization 1.0.0 (initial)
 - content revised 2026-10-07: 96 Ways the Agents Were Confidently Wrong 1.0.1 (patch): claim; measured
 - content revised 2026-10-07: 96 Ways the Agents Were Confidently Wrong 1.0.0 (initial)
 - content revised 2026-10-03: A Model Upgrade on a Frozen Dependency Review 1.0.1 (patch): claim; measured; method
