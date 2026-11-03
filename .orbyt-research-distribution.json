@@ -124,6 +124,10 @@
       "sha256": "e70c73c64ae95656a74cecbdc20141c09a3ae09ff842b34e0cc636b4ead0c56f"
     },
     {
+      "path": "provenance/manifests/2026-11-03.json",
+      "sha256": "aca8dcec69d45a8f61519b5483bef89ecc0454ccadf2c430a407467fb085e3e4"
+    },
+    {
       "path": "provenance/owner.allowed_signers",
       "sha256": "cd9aff505b80b59bc82758fc60165438684028b2dbc5843a7f160ceaec0403dc"
     },
@@ -201,7 +205,11 @@
     },
     {
       "path": "provenance/stamps/2026-11-02.ots",
-      "sha256": "879cbbbe4a2f6a8a7f966c61b46ff51f10a5a6c4a37d99a3b9dde27e17339596"
+      "sha256": "0cb5df4185b9b8dcf0ea93f6a4c235d466d344363abfdaed0a240f857f46bf54"
+    },
+    {
+      "path": "provenance/stamps/2026-11-03.ots",
+      "sha256": "52605904574411364320322a3ecab8e73054e07b7832f5bb3b786740f1b31652"
     },
     {
       "path": "topics/field-notes.md",
