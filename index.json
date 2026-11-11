@@ -929,10 +929,10 @@
       "target": "research",
       "path": "notes/2026/single-agent-vs-team.md",
       "first_published": "2026-09-17",
-      "revised": "2026-10-08",
-      "version": "1.0.1",
-      "tag": "single-agent-vs-team-v1.0.1",
-      "record_sha256": "f071c89d3744fa97b40288cb5206251140985574f775b2f22bece5033cfe93a8",
+      "revised": "2026-11-10",
+      "version": "1.1.0",
+      "tag": "single-agent-vs-team-v1.1.0",
+      "record_sha256": "3f8db90a5ded6e2a0a6e52382e5eb78f07d2d6c54e291d5b090c9a7a041d63a6",
       "citation": "Bartak, J. (2026). A Single Agent and a Research Team on Equal Ceilings. Orbyt Labs Research, version 1.0.0. https://www.orbytlabs.ai/research/single-agent-vs-team",
       "history": [
         {
@@ -950,6 +950,16 @@
             "measured"
           ],
           "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-11-10",
+          "kind": "minor",
+          "changed": [
+            "evidence",
+            "limitations",
+            "revision date from 2026-10-08 to 2026-11-10"
+          ]
         }
       ],
       "record": {
@@ -1071,7 +1081,7 @@
         "limitations": [
           "A single product, a single hypothetical feature and 6 briefs. Customer outcomes and later consequences are not yet observed.",
           "The ceilings use CLI list price estimates. No cash moved on the subscription plan. A session stops after the call that crosses its ceiling, so a crossing call can overshoot.",
-          "The founder did not perform the substantive reads. The reviewer was an agent of a different model family from the reports' authors, reading in a copy of the repository with the letter map and the named run directories removed, retrieving each cited source over the web. No human minutes were recorded, so the human time clause in the pre registered rule was not measured and reads as not met."
+          "The founder did not perform the substantive reads. The reviewer was an agent of a different model family from the reports' authors, reading in a copy of the repository with the letter map and the named run directories removed, retrieving each cited source over the web. RESULT.json records 0.725 setup minutes for each arrangement; review, correction, rescue and total human minutes are null. Human review time was not measured, so the human time clause in the pre registered rule reads as not met."
         ],
         "license": {
           "label": "CC BY 4.0",
@@ -1079,11 +1089,11 @@
         },
         "citation": "Bartak, J. (2026). A Single Agent and a Research Team on Equal Ceilings. Orbyt Labs Research, version 1.0.0. https://www.orbytlabs.ai/research/single-agent-vs-team",
         "published_on": "2026-09-17",
-        "revised": "2026-10-08",
+        "revised": "2026-11-10",
         "stage": "published",
         "evidence": {
           "label": "Every record behind this note, with a SHA-256 hash per file",
-          "url": "https://www.orbytlabs.ai/research/single-agent-vs-team/evidence-2026-10-08/MANIFEST.json"
+          "url": "https://www.orbytlabs.ai/research/single-agent-vs-team/evidence-2026-11-10/MANIFEST.json"
         }
       }
     },

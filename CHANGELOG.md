@@ -2,6 +2,7 @@
 
 Every version of every entry, newest first, by the date its content was revised (not the date it reached GitHub).
 
+- content revised 2026-11-10: A Single Agent and a Research Team on Equal Ceilings 1.1.0 (minor): evidence; limitations; revision date from 2026-10-08 to 2026-11-10
 - content revised 2026-10-08: A Single Agent and a Research Team on Equal Ceilings 1.0.1 (patch): claim; measured
 - content revised 2026-10-08: A Single Agent and a Research Team on Equal Ceilings 1.0.0 (initial)
 - content revised 2026-10-08: Did the Machine Learn From Its Last Failure? 1.0.0 (initial)

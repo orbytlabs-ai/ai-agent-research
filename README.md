@@ -24,7 +24,7 @@ Browse by kind in [topics/](topics/). Every list below is newest first.
 | [What an Agent Seat Actually Completes](https://www.orbytlabs.ai/research/agent-seat-completion) | 2026-09-26 | 1.0.1 | [notes/2026/agent-seat-completion.md](notes/2026/agent-seat-completion.md) |
 | [The Cache-Read Tax](https://www.orbytlabs.ai/research/agent-token-economics) | 2026-09-26 | 1.0.1 | [notes/2026/agent-token-economics.md](notes/2026/agent-token-economics.md) |
 | [Every Guard Must Prove It Can Stay Silent](https://www.orbytlabs.ai/research/guard-harness) | 2026-09-25 | 1.0.1 | [notes/2026/guard-harness.md](notes/2026/guard-harness.md) |
-| [A Single Agent and a Research Team on Equal Ceilings](https://www.orbytlabs.ai/research/single-agent-vs-team) | 2026-09-17 | 1.0.1 | [notes/2026/single-agent-vs-team.md](notes/2026/single-agent-vs-team.md) |
+| [A Single Agent and a Research Team on Equal Ceilings](https://www.orbytlabs.ai/research/single-agent-vs-team) | 2026-09-17 | 1.1.0 | [notes/2026/single-agent-vs-team.md](notes/2026/single-agent-vs-team.md) |
 
 ## Preregistrations
 

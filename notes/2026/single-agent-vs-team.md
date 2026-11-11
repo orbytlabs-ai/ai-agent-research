@@ -4,7 +4,7 @@ A field note from Orbyt Labs Research, by Justin Bartak.
 
 Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
 
-Version 1.0.1, content revised 2026-10-08. Measurement version 1.0.0, collected 2026-09-17.
+Version 1.1.0, content revised 2026-11-10. Measurement version 1.0.0, collected 2026-09-17.
 
 Canonical page: https://www.orbytlabs.ai/research/single-agent-vs-team
 
@@ -55,11 +55,11 @@ The sources name commands and files in Orbyt's private repository. They are reco
 
 - A single product, a single hypothetical feature and 6 briefs. Customer outcomes and later consequences are not yet observed.
 - The ceilings use CLI list price estimates. No cash moved on the subscription plan. A session stops after the call that crosses its ceiling, so a crossing call can overshoot.
-- The founder did not perform the substantive reads. The reviewer was an agent of a different model family from the reports' authors, reading in a copy of the repository with the letter map and the named run directories removed, retrieving each cited source over the web. No human minutes were recorded, so the human time clause in the pre registered rule was not measured and reads as not met.
+- The founder did not perform the substantive reads. The reviewer was an agent of a different model family from the reports' authors, reading in a copy of the repository with the letter map and the named run directories removed, retrieving each cited source over the web. RESULT.json records 0.725 setup minutes for each arrangement; review, correction, rescue and total human minutes are null. Human review time was not measured, so the human time clause in the pre registered rule reads as not met.
 
 ## Evidence
 
-Every record behind this note, with a SHA-256 hash per file: https://www.orbytlabs.ai/research/single-agent-vs-team/evidence-2026-10-08/MANIFEST.json
+Every record behind this note, with a SHA-256 hash per file: https://www.orbytlabs.ai/research/single-agent-vs-team/evidence-2026-11-10/MANIFEST.json
 
 ## How to cite
 
@@ -82,6 +82,7 @@ Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected re
 
 ## Changelog
 
+- 1.1.0, content revised 2026-11-10 (minor): changed: evidence; limitations; revision date from 2026-10-08 to 2026-11-10
 - 1.0.1, content revised 2026-10-08 (patch): changed: claim; measured. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-10-08 (initial): first version of this record
 
