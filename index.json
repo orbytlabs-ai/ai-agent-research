@@ -254,11 +254,11 @@
       "canonical_url": "https://www.orbytlabs.ai/research/guard-harness",
       "target": "research",
       "path": "notes/2026/guard-harness.md",
-      "first_published": "2026-09-25",
+      "first_published": "2026-08-27",
       "revised": "2026-09-25",
-      "version": "1.0.1",
-      "tag": "guard-harness-v1.0.1",
-      "record_sha256": "6ee9564024d038d15e6c1be8bf315e498acc8f78a94bd07ca5866c6e88727099",
+      "version": "1.1.0",
+      "tag": "guard-harness-v1.1.0",
+      "record_sha256": "6520a33915758a71e76d61b537693aa44a76e9b7c89e42ffefc1ca87e6d205e7",
       "citation": "Bartak, J. (2026). Every Guard Must Prove It Can Stay Silent. Orbyt Labs Research, version 2.17.0. https://www.orbytlabs.ai/research/guard-harness",
       "history": [
         {
@@ -276,6 +276,14 @@
             "measured"
           ],
           "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-25",
+          "kind": "minor",
+          "changed": [
+            "published on"
+          ]
         }
       ],
       "record": {
@@ -343,7 +351,7 @@
           "url": "https://creativecommons.org/licenses/by/4.0/"
         },
         "citation": "Bartak, J. (2026). Every Guard Must Prove It Can Stay Silent. Orbyt Labs Research, version 2.17.0. https://www.orbytlabs.ai/research/guard-harness",
-        "published_on": "2026-09-25",
+        "published_on": "2026-08-27",
         "revised": "2026-09-25",
         "stage": "published"
       }
@@ -357,11 +365,11 @@
       "canonical_url": "https://www.orbytlabs.ai/research/agent-token-economics",
       "target": "research",
       "path": "notes/2026/agent-token-economics.md",
-      "first_published": "2026-09-26",
+      "first_published": "2026-08-27",
       "revised": "2026-09-26",
-      "version": "1.0.1",
-      "tag": "agent-token-economics-v1.0.1",
-      "record_sha256": "d32fe01adcab452c1fb1ca3c6f50722544afe117d636757f11cb81bf4c32eda9",
+      "version": "1.1.0",
+      "tag": "agent-token-economics-v1.1.0",
+      "record_sha256": "b9232a3afe04b0f31da5fa7c2b21d5cf843244a2bf0bc00ac72d106facb20f4f",
       "citation": "Bartak, J. (2026). The Cache-Read Tax. Orbyt Labs Research, version 1.23.0. https://www.orbytlabs.ai/research/agent-token-economics",
       "history": [
         {
@@ -379,6 +387,14 @@
             "measured"
           ],
           "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-26",
+          "kind": "minor",
+          "changed": [
+            "published on"
+          ]
         }
       ],
       "record": {
@@ -451,7 +467,7 @@
           "url": "https://creativecommons.org/licenses/by/4.0/"
         },
         "citation": "Bartak, J. (2026). The Cache-Read Tax. Orbyt Labs Research, version 1.23.0. https://www.orbytlabs.ai/research/agent-token-economics",
-        "published_on": "2026-09-26",
+        "published_on": "2026-08-27",
         "revised": "2026-09-26",
         "stage": "published"
       }
@@ -465,11 +481,11 @@
       "canonical_url": "https://www.orbytlabs.ai/research/confidently-wrong",
       "target": "research",
       "path": "notes/2026/confidently-wrong.md",
-      "first_published": "2026-10-07",
+      "first_published": "2026-08-27",
       "revised": "2026-10-07",
-      "version": "1.0.1",
-      "tag": "confidently-wrong-v1.0.1",
-      "record_sha256": "0a9a144a38aa2b7523de636ef098dbad16509d117c7ab25274ab32fdcd2c4140",
+      "version": "1.1.0",
+      "tag": "confidently-wrong-v1.1.0",
+      "record_sha256": "857f6810d33d3aed1ecaf3b4c37c092d54697e9ce10a081930cc0af93384bd88",
       "citation": "Bartak, J. (2026). 96 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, version 2.23.0. https://www.orbytlabs.ai/research/confidently-wrong",
       "history": [
         {
@@ -487,6 +503,14 @@
             "measured"
           ],
           "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-07",
+          "kind": "minor",
+          "changed": [
+            "published on"
+          ]
         }
       ],
       "record": {
@@ -544,7 +568,7 @@
           "url": "https://creativecommons.org/licenses/by/4.0/"
         },
         "citation": "Bartak, J. (2026). 96 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, version 2.23.0. https://www.orbytlabs.ai/research/confidently-wrong",
-        "published_on": "2026-10-07",
+        "published_on": "2026-08-27",
         "revised": "2026-10-07",
         "stage": "published"
       }
@@ -558,11 +582,11 @@
       "canonical_url": "https://www.orbytlabs.ai/research/agent-seat-completion",
       "target": "research",
       "path": "notes/2026/agent-seat-completion.md",
-      "first_published": "2026-11-12",
+      "first_published": "2026-09-11",
       "revised": "2026-11-12",
-      "version": "1.1.0",
-      "tag": "agent-seat-completion-v1.1.0",
-      "record_sha256": "bb18d6f7f2b3267ae5d067dbbcca89f609ef7b06b4599a95b02b6f547c7f0c62",
+      "version": "1.2.0",
+      "tag": "agent-seat-completion-v1.2.0",
+      "record_sha256": "c1041408731132542d6678d3a549eb9c4d650bbe653d688b75fdba41ed474de5",
       "citation": "Bartak, J. (2026). What an Agent Seat Actually Completes. Orbyt Labs Research, version 2.0.0. https://www.orbytlabs.ai/research/agent-seat-completion",
       "history": [
         {
@@ -611,6 +635,14 @@
             "published on",
             "revision date from 2026-09-26 to 2026-11-12",
             "sample size"
+          ]
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-11-12",
+          "kind": "minor",
+          "changed": [
+            "published on"
           ]
         }
       ],
@@ -710,7 +742,7 @@
           "url": "https://creativecommons.org/licenses/by/4.0/"
         },
         "citation": "Bartak, J. (2026). What an Agent Seat Actually Completes. Orbyt Labs Research, version 2.0.0. https://www.orbytlabs.ai/research/agent-seat-completion",
-        "published_on": "2026-11-12",
+        "published_on": "2026-09-11",
         "revised": "2026-11-12",
         "stage": "published"
       }
@@ -724,11 +756,11 @@
       "canonical_url": "https://www.orbytlabs.ai/research/model-upgrade-trial",
       "target": "research",
       "path": "notes/2026/model-upgrade-trial.md",
-      "first_published": "2026-10-03",
+      "first_published": "2026-09-17",
       "revised": "2026-10-03",
-      "version": "1.0.1",
-      "tag": "model-upgrade-trial-v1.0.1",
-      "record_sha256": "348271688517bea1930a56ff84a7ec61b8ed9ba53240eb139c9097000c4ca281",
+      "version": "1.1.0",
+      "tag": "model-upgrade-trial-v1.1.0",
+      "record_sha256": "4182184462e582f138694dad99d81ba58d0a0fad662e30f2d300d1dbb3cfdaa3",
       "citation": "Bartak, J. (2026). A Model Upgrade on a Frozen Dependency Review. Orbyt Labs Research, version 1.1.0. https://www.orbytlabs.ai/research/model-upgrade-trial",
       "history": [
         {
@@ -747,6 +779,14 @@
             "method"
           ],
           "reason": "presentation: dates rendered as ISO 8601; citation metadata added"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-03",
+          "kind": "minor",
+          "changed": [
+            "published on"
+          ]
         }
       ],
       "record": {
@@ -954,7 +994,7 @@
           "url": "https://creativecommons.org/licenses/by/4.0/"
         },
         "citation": "Bartak, J. (2026). A Model Upgrade on a Frozen Dependency Review. Orbyt Labs Research, version 1.1.0. https://www.orbytlabs.ai/research/model-upgrade-trial",
-        "published_on": "2026-10-03",
+        "published_on": "2026-09-17",
         "revised": "2026-10-03",
         "stage": "published"
       }
@@ -1147,10 +1187,10 @@
       "target": "research",
       "path": "notes/2026/did-the-machine-learn.md",
       "first_published": "2026-10-20",
-      "revised": "2026-10-08",
-      "version": "1.0.0",
-      "tag": "did-the-machine-learn-v1.0.0",
-      "record_sha256": "500b1cd10b15a1b7a77908b4705e95d43989d93177c4572b0786c5c880a59895",
+      "revised": "2026-10-20",
+      "version": "1.1.0",
+      "tag": "did-the-machine-learn-v1.1.0",
+      "record_sha256": "e1ea336f754526d4f63d3cc0392d555e13ff774d6c222f1ce8610061b16b4f80",
       "citation": "Bartak, J. (2026). Did the Machine Learn From Its Last Failure?. Orbyt Labs Research, version 1.0.0. https://www.orbytlabs.ai/research/did-the-machine-learn",
       "history": [
         {
@@ -1158,6 +1198,14 @@
           "date": "2026-10-08",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-20",
+          "kind": "minor",
+          "changed": [
+            "revision date from 2026-10-08 to 2026-10-20"
+          ]
         }
       ],
       "record": {
@@ -1309,7 +1357,7 @@
         },
         "citation": "Bartak, J. (2026). Did the Machine Learn From Its Last Failure?. Orbyt Labs Research, version 1.0.0. https://www.orbytlabs.ai/research/did-the-machine-learn",
         "published_on": "2026-10-20",
-        "revised": "2026-10-08",
+        "revised": "2026-10-20",
         "stage": "preregistered"
       }
     },
@@ -1323,10 +1371,10 @@
       "target": "research",
       "path": "notes/2026/governing-self-repair.md",
       "first_published": "2026-10-20",
-      "revised": "2026-10-08",
-      "version": "1.0.0",
-      "tag": "governing-self-repair-v1.0.0",
-      "record_sha256": "362040ccfd5d4b5fb1fff5ab3e21d71615202070f203f062c14538c1d0c608fb",
+      "revised": "2026-10-20",
+      "version": "1.1.0",
+      "tag": "governing-self-repair-v1.1.0",
+      "record_sha256": "3e18264a96540160adff1504ce018e79eda36fc7985f7e4aa856f0539ce9a5fa",
       "citation": "Bartak, J. (2026). Governing a Self-Repairing Agent Organization. Orbyt Labs Research, version 1.0.0. https://www.orbytlabs.ai/research/governing-self-repair",
       "history": [
         {
@@ -1334,6 +1382,14 @@
           "date": "2026-10-08",
           "kind": "initial",
           "changed": []
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-20",
+          "kind": "minor",
+          "changed": [
+            "revision date from 2026-10-08 to 2026-10-20"
+          ]
         }
       ],
       "record": {
@@ -1447,7 +1503,7 @@
         },
         "citation": "Bartak, J. (2026). Governing a Self-Repairing Agent Organization. Orbyt Labs Research, version 1.0.0. https://www.orbytlabs.ai/research/governing-self-repair",
         "published_on": "2026-10-20",
-        "revised": "2026-10-08",
+        "revised": "2026-10-20",
         "stage": "preregistered"
       }
     }

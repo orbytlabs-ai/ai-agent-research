@@ -4,7 +4,7 @@ A field note from Orbyt Labs Research, by Justin Bartak.
 
 Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
 
-Version 1.0.1, content revised 2026-10-03. Measurement version 1.1.0, collected 2026-09-17 to 2026-10-03.
+Version 1.1.0, content revised 2026-10-03. Measurement version 1.1.0, collected 2026-09-17 to 2026-10-03.
 
 Canonical page: https://www.orbytlabs.ai/research/model-upgrade-trial
 
@@ -101,6 +101,7 @@ Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected re
 
 ## Changelog
 
+- 1.1.0, content revised 2026-10-03 (minor): changed: published on
 - 1.0.1, content revised 2026-10-03 (patch): changed: claim; measured; method. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-10-03 (initial): first version of this record
 

@@ -4,7 +4,7 @@ A field note from Orbyt Labs Research, by Justin Bartak.
 
 Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
 
-Version 1.0.1, content revised 2026-10-07. Measurement version 2.23.0, collected 2026-08-27 to 2026-10-07.
+Version 1.1.0, content revised 2026-10-07. Measurement version 2.23.0, collected 2026-08-27 to 2026-10-07.
 
 Canonical page: https://www.orbytlabs.ai/research/confidently-wrong
 
@@ -67,6 +67,7 @@ Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected re
 
 ## Changelog
 
+- 1.1.0, content revised 2026-10-07 (minor): changed: published on
 - 1.0.1, content revised 2026-10-07 (patch): changed: claim; measured. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-10-07 (initial): first version of this record
 

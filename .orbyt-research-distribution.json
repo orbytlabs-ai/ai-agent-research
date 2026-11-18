@@ -5,7 +5,7 @@
   "files": [
     {
       "path": "CHANGELOG.md",
-      "sha256": "273dc1e321fd7cc51c54d0ca404e6341c778b4eb0f97fe7610707c0b2e4a35c7"
+      "sha256": "e70d04fba2ae689e655dfc8ff1a566f42f39b7c2a5b2a16f85a54b503b507690"
     },
     {
       "path": "CITATION.cff",
@@ -17,39 +17,39 @@
     },
     {
       "path": "README.md",
-      "sha256": "ca211a5ca748b14cd4f362ca2d0ded7f75c3394e5a69dfc42fd64170ce7814bd"
+      "sha256": "21a7fa23727916e90108c53d095ba971a5f7fcda9ad7bfb5d1c68052f1d631ef"
     },
     {
       "path": "index.json",
-      "sha256": "b13167bedb3289a1c59a2c118d6385b61bb1598b62fe293edd8c920c7cc6e2cb"
+      "sha256": "bd753b8ca474f0190677e8af9f48fa28e5f7edb7f21bc223f2c0dae1563d079d"
     },
     {
       "path": "notes/2026/agent-seat-completion.md",
-      "sha256": "4c9b9cf744f4e9953c2bb60ff844d98899b8d983796d7e2d5afb3db08db21612"
+      "sha256": "a3ff0281c116295848c8484b8eea9c4a1a956c0d04d4368bca59149a55635a9c"
     },
     {
       "path": "notes/2026/agent-token-economics.md",
-      "sha256": "b304e854cfc9ac4a0680c40d9a0161bbf8abb3723f8894dbeaa8d58500b25f63"
+      "sha256": "e7e7294fe383ea5a6bb65590c33a9937b60c85ac79e8012f314e029be18f2039"
     },
     {
       "path": "notes/2026/confidently-wrong.md",
-      "sha256": "3645b3af34b442f3cf0800e984c513bc34c83777c6e8b282b81eab58bfa20888"
+      "sha256": "80b33ab06c687ff1283d72917e7010366ca0a493c2a5dcb4366b05471a3e1dc8"
     },
     {
       "path": "notes/2026/did-the-machine-learn.md",
-      "sha256": "c1f4e3d5c3ae249a07adb40006a31c9d339f464010e7c6da48e6ed656731611f"
+      "sha256": "5088ff26ad796c9b091edb0f19b1cbcf4de590a1d63f4beb1e033831291d1e6f"
     },
     {
       "path": "notes/2026/governing-self-repair.md",
-      "sha256": "bb3cd37a97cb86a17880c2552f1850d3dd7a79595ca7ddba28514858d10d428e"
+      "sha256": "4a1841c91d784fc583eac389cf6776992bb866980d33fb90283b51c8c5cfeb21"
     },
     {
       "path": "notes/2026/guard-harness.md",
-      "sha256": "0e0dbb1351ba0dcbefc7b4cb45a0ac0614e64efae6bf20075a68ef6fb23e20d0"
+      "sha256": "993d18ceaee5f94ff0ccdbc7844493dbd85740a90874602903cac09d9004eff6"
     },
     {
       "path": "notes/2026/model-upgrade-trial.md",
-      "sha256": "f2aaa3bd40035ec3c94ce844cf53af827096a027699f3c0ef6e100d2c3e349e4"
+      "sha256": "c2c6b1629ca5d5f8d83775f44daa1ddfb37929736aa3cb20f9eeb1fd3fa3053f"
     },
     {
       "path": "notes/2026/single-agent-vs-team.md",
@@ -182,6 +182,10 @@
     {
       "path": "provenance/manifests/2026-11-17.json",
       "sha256": "2b39377732e4f1c40ce05166560955b7f3b93216887e5a1fcbc64c6590475b2a"
+    },
+    {
+      "path": "provenance/manifests/2026-11-18.json",
+      "sha256": "7a308af0f4fc44f67618565e1469790694d578e2126a0d8942c52593b84b8078"
     },
     {
       "path": "provenance/owner.allowed_signers",
@@ -321,11 +325,15 @@
     },
     {
       "path": "provenance/stamps/2026-11-17.ots",
-      "sha256": "5f6782c894947633a2dac5f80b0c0fbdc5faaec7024933274a9772b9f9527cdb"
+      "sha256": "458dd340e2cb710c5d0f1542ab840ffa6621ae33d66ed625a8c65af67f1dcdfc"
+    },
+    {
+      "path": "provenance/stamps/2026-11-18.ots",
+      "sha256": "f1380398a8986102b7b1bf7038307dc2596b9f18d6856816841a9dd6ca349990"
     },
     {
       "path": "topics/field-notes.md",
-      "sha256": "093f882993d33def4042b03beacfdb5029b1bca331c610e6673580cd2edbc754"
+      "sha256": "6db3b70da934e44e8316747ef87db9df8606ad8bd5fe6a16c1eb6b8c4f944150"
     },
     {
       "path": "topics/papers.md",
@@ -333,7 +341,7 @@
     },
     {
       "path": "topics/preregistrations.md",
-      "sha256": "25d88fd87ad70cb5ea00b7341c9bbc5f63015f50beefcb3fa10bcc035f117c24"
+      "sha256": "3771dc5871d1c94e5b0685042731dc344eec009756130cbc97e5c3a1f4a60c3b"
     }
   ]
 }

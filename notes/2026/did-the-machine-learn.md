@@ -4,7 +4,7 @@ A preregistration from Orbyt Labs Research: the question, the design and the sto
 
 Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
 
-Version 1.0.0, content revised 2026-10-08. Measurement version 1.0.0, collected 2026-10-08.
+Version 1.1.0, content revised 2026-10-20. Measurement version 1.0.0, collected 2026-10-08.
 
 Canonical page: https://www.orbytlabs.ai/research/did-the-machine-learn
 
@@ -88,6 +88,7 @@ Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected re
 
 ## Changelog
 
+- 1.1.0, content revised 2026-10-20 (minor): changed: revision date from 2026-10-08 to 2026-10-20
 - 1.0.0, content revised 2026-10-08 (initial): first version of this record
 
 ---

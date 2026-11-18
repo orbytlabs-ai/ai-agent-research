@@ -4,7 +4,7 @@ A field note from Orbyt Labs Research, by Justin Bartak.
 
 Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
 
-Version 1.1.0, content revised 2026-11-12. Measurement version 2.0.0, collected 2026-09-11 to 2026-11-12.
+Version 1.2.0, content revised 2026-11-12. Measurement version 2.0.0, collected 2026-09-11 to 2026-11-12.
 
 Canonical page: https://www.orbytlabs.ai/research/agent-seat-completion
 
@@ -76,6 +76,7 @@ Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected re
 
 ## Changelog
 
+- 1.2.0, content revised 2026-11-12 (minor): changed: published on
 - 1.1.0, content revised 2026-11-12 (minor): changed: citation; claim; collection end; description; limitations; measured; measurement version from 1.10.0 to 2.0.0; measurement "Recorded runs" from 106 to 209; measurement "Seats with a run ledger" from 9 to 11; measurement "Runs whose output passed the completion gate" from 91 to 192; measurement "Completion rate" from 86% to 92%; measurement "Runs the guards refused" from 15 to 17; measurement "Rows where no run happened (skip, halted, infrastructure)" from 4 to 15; measurement "Paths reset before commit, outside the run's effective keep set" added: 135; measurement "Of those, the seat's own proposed lesson, held by the closed lessons gate" added: 112; measurement "Of those, paths outside anything the run may keep" added: 23; measurement "Last recorded run" from 2026-09-26 to 2026-11-11; measurement "Files an agent changed outside its lane, erased before commit" removed; method; published on; revision date from 2026-09-26 to 2026-11-12; sample size
 - 1.0.1, content revised 2026-09-26 (patch): changed: claim; measured; measurement "First recorded run" from 21 July 2026 to 2026-07-21; measurement "Last recorded run" from 26 September 2026 to 2026-09-26; method. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-09-26 (initial): first version of this record

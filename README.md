@@ -19,19 +19,19 @@ Browse by kind in [topics/](topics/). Every list below is newest first.
 
 | Title | Collected | Version | Here |
 | --- | --- | --- | --- |
-| [What an Agent Seat Actually Completes](https://www.orbytlabs.ai/research/agent-seat-completion) | 2026-11-12 | 1.1.0 | [notes/2026/agent-seat-completion.md](notes/2026/agent-seat-completion.md) |
-| [96 Ways the Agents Were Confidently Wrong](https://www.orbytlabs.ai/research/confidently-wrong) | 2026-10-07 | 1.0.1 | [notes/2026/confidently-wrong.md](notes/2026/confidently-wrong.md) |
-| [A Model Upgrade on a Frozen Dependency Review](https://www.orbytlabs.ai/research/model-upgrade-trial) | 2026-10-03 | 1.0.1 | [notes/2026/model-upgrade-trial.md](notes/2026/model-upgrade-trial.md) |
-| [The Cache-Read Tax](https://www.orbytlabs.ai/research/agent-token-economics) | 2026-09-26 | 1.0.1 | [notes/2026/agent-token-economics.md](notes/2026/agent-token-economics.md) |
-| [Every Guard Must Prove It Can Stay Silent](https://www.orbytlabs.ai/research/guard-harness) | 2026-09-25 | 1.0.1 | [notes/2026/guard-harness.md](notes/2026/guard-harness.md) |
+| [What an Agent Seat Actually Completes](https://www.orbytlabs.ai/research/agent-seat-completion) | 2026-11-12 | 1.2.0 | [notes/2026/agent-seat-completion.md](notes/2026/agent-seat-completion.md) |
+| [96 Ways the Agents Were Confidently Wrong](https://www.orbytlabs.ai/research/confidently-wrong) | 2026-10-07 | 1.1.0 | [notes/2026/confidently-wrong.md](notes/2026/confidently-wrong.md) |
+| [A Model Upgrade on a Frozen Dependency Review](https://www.orbytlabs.ai/research/model-upgrade-trial) | 2026-10-03 | 1.1.0 | [notes/2026/model-upgrade-trial.md](notes/2026/model-upgrade-trial.md) |
+| [The Cache-Read Tax](https://www.orbytlabs.ai/research/agent-token-economics) | 2026-09-26 | 1.1.0 | [notes/2026/agent-token-economics.md](notes/2026/agent-token-economics.md) |
+| [Every Guard Must Prove It Can Stay Silent](https://www.orbytlabs.ai/research/guard-harness) | 2026-09-25 | 1.1.0 | [notes/2026/guard-harness.md](notes/2026/guard-harness.md) |
 | [A Single Agent and a Research Team on Equal Ceilings](https://www.orbytlabs.ai/research/single-agent-vs-team) | 2026-09-17 | 1.1.0 | [notes/2026/single-agent-vs-team.md](notes/2026/single-agent-vs-team.md) |
 
 ## Preregistrations
 
 Published before any result. Each reports no finding.
 
-- [Did the Machine Learn From Its Last Failure?](https://www.orbytlabs.ai/research/did-the-machine-learn), version 1.0.0: [notes/2026/did-the-machine-learn.md](notes/2026/did-the-machine-learn.md)
-- [Governing a Self-Repairing Agent Organization](https://www.orbytlabs.ai/research/governing-self-repair), version 1.0.0: [notes/2026/governing-self-repair.md](notes/2026/governing-self-repair.md)
+- [Did the Machine Learn From Its Last Failure?](https://www.orbytlabs.ai/research/did-the-machine-learn), version 1.1.0: [notes/2026/did-the-machine-learn.md](notes/2026/did-the-machine-learn.md)
+- [Governing a Self-Repairing Agent Organization](https://www.orbytlabs.ai/research/governing-self-repair), version 1.1.0: [notes/2026/governing-self-repair.md](notes/2026/governing-self-repair.md)
 
 ## How to cite
 
