@@ -255,11 +255,11 @@
       "target": "research",
       "path": "notes/2026/guard-harness.md",
       "first_published": "2026-08-27",
-      "revised": "2026-09-25",
-      "version": "1.1.0",
-      "tag": "guard-harness-v1.1.0",
-      "record_sha256": "6520a33915758a71e76d61b537693aa44a76e9b7c89e42ffefc1ca87e6d205e7",
-      "citation": "Bartak, J. (2026). Every Guard Must Prove It Can Stay Silent. Orbyt Labs Research, version 2.17.0. https://www.orbytlabs.ai/research/guard-harness",
+      "revised": "2026-11-14",
+      "version": "1.2.0",
+      "tag": "guard-harness-v1.2.0",
+      "record_sha256": "657ff9214aa6c7a29daa192f5e2d6cd1592438992114f3ae606b2a1af8c0ef2e",
+      "citation": "Bartak, J. (2026). Every Guard Must Prove It Can Stay Silent. Orbyt Labs Research, version 3.0.0. https://www.orbytlabs.ai/research/guard-harness",
       "history": [
         {
           "version": "1.0.0",
@@ -284,41 +284,63 @@
           "changed": [
             "published on"
           ]
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-11-14",
+          "kind": "minor",
+          "changed": [
+            "citation",
+            "claim",
+            "collection end",
+            "limitations",
+            "measured",
+            "measurement version from 2.17.0 to 3.0.0",
+            "measurement \"Guard scripts in the repository\" from 118 to 123",
+            "measurement \"Blocking a commit outright\" from 16 to 17",
+            "measurement \"Carrying a STRICT promotion switch\" from 93 to 97",
+            "measurement \"Guard test suites\" from 104 to 116",
+            "measurement \"Test suites proving the guard stays SILENT\" from 104 of 104 (100%) to 116 of 116 (100%)",
+            "measurement \"Logged failures with a guard built in response\" from 67 to 74",
+            "method",
+            "revision date from 2026-09-25 to 2026-11-14",
+            "sample size"
+          ]
         }
       ],
       "record": {
         "title": "Every Guard Must Prove It Can Stay Silent",
         "description": "A census of the automated guard harness in a repository where AI agents write most of the code: how many detectors exist, how many block a commit, and how many prove they can stay quiet on a clean input rather than only fire on a bad one.",
-        "measured": "Point-in-time census of the repository, 2026-09-25.",
-        "claim": "As of 2026-09-25, the Orbyt Labs repository enforces 118 automated guard scripts, of which 16 block a commit outright, and 104 of 104 (100%) guard test suites assert that the detector stays silent on a clean input rather than only firing on a bad one.",
-        "sample_size": "118 guard scripts and 104 guard test suites in one repository",
+        "measured": "Point-in-time census of the repository, 2026-11-14.",
+        "claim": "As of 2026-11-14, the Orbyt Labs repository enforces 123 automated guard scripts, of which 17 block a commit outright, and 116 of 116 (100%) guard test suites assert that the detector stays silent on a clean input rather than only firing on a bad one.",
+        "sample_size": "123 guard scripts and 116 guard test suites in one repository",
         "collection_start": "2026-08-27",
-        "collection_end": "2026-09-25",
-        "measurement_version": "2.17.0",
+        "collection_end": "2026-11-14",
+        "measurement_version": "3.0.0",
         "measurements": [
           {
             "metric": "Guard scripts in the repository",
-            "value": "118",
-            "source": "ls scripts/check-*.cjs | wc -l"
+            "value": "123",
+            "source": "ls scripts/check-*.cjs scripts/check-*.ts | wc -l"
           },
           {
             "metric": "Blocking a commit outright",
-            "value": "16",
-            "source": "node \"$ROOT/scripts/check-<name>.cjs\" || exit 1 lines in scripts/pre-commit"
+            "value": "17",
+            "source": "node \"$ROOT/scripts/check-<name>.cjs\" || exit 1 and node or npx tsx \"$ROOT/scripts/check-<name>.ts\" || exit 1 lines in scripts/pre-commit"
           },
           {
             "metric": "Carrying a STRICT promotion switch",
-            "value": "93",
-            "source": "grep -l _STRICT scripts/check-*.cjs | wc -l"
+            "value": "97",
+            "source": "grep -l _STRICT scripts/check-*.cjs scripts/check-*.ts | wc -l"
           },
           {
             "metric": "Guard test suites",
-            "value": "104",
+            "value": "116",
             "source": "ls __tests__/scripts/check-*.test.ts | wc -l"
           },
           {
             "metric": "Test suites proving the guard stays SILENT",
-            "value": "104 of 104 (100%)",
+            "value": "116 of 116 (100%)",
             "source": "node scripts/check-doc-claim-parity.cjs, check 6"
           },
           {
@@ -328,13 +350,13 @@
           },
           {
             "metric": "Logged failures with a guard built in response",
-            "value": "67",
+            "value": "74",
             "source": "public/failure-corpus.json, field `mechanized_count`"
           }
         ],
         "method": [
           "A census of one repository on one date, taken by running each command in the source column and reading its output, not by reading documentation that describes the repository.",
-          "A guard is any executable at scripts/check-*.cjs. Blocking means the pre-commit hook runs it as `node \"$ROOT/scripts/check-<name>.cjs\" || exit 1`; the hook invokes no guard through an npm script, so that one form is the whole population.",
+          "A guard is any executable at scripts/check-*.cjs or scripts/check-*.ts. Blocking means the pre-commit hook runs it as `node \"$ROOT/scripts/check-<name>.cjs\" || exit 1`, or, for a TypeScript guard, as `node` or `npx tsx` on `\"$ROOT/scripts/check-<name>.ts\" || exit 1`; the hook invokes no guard through an npm script, so those forms are the whole population.",
           "A STRICT switch means the guard reads a <NAME>_STRICT environment variable, which promotes it from reporting to blocking. Most guards are report-only by default and can be promoted per run.",
           "The stays-silent figure uses the repository's own detector rather than a definition written for this entry. Check 6 of check-doc-claim-parity.cjs scans every __tests__/scripts/check-*.test.ts for absence idioms (.toBe(0), .toBe(false), .not.to, not.toMatch, not.toContain, toEqual([]), toHaveLength(0), toEqual({})) and warns on any file with none.",
           "The rule being measured exists because four detectors misfired on a single day in July 2026, every one of which passed its own test suite, because each suite only ever proved the detector could be LOUD."
@@ -344,15 +366,15 @@
           "A census, refreshed on a schedule, not a controlled time series. The changelog carries every refresh with its deltas, but a rising count can mean growth or reclassification, and no trend is claimed from it.",
           "An absence idiom in a test file is evidence that a negative case was written, not proof that the negative case is a good one. A test can assert zero findings against an input that could never have produced any.",
           "The stays-silent detector is deliberately conservative and its author documents two earlier drafts that were wrong in opposite directions, one matching loose prose and one omitting toEqual([]). It is a warning rather than a blocking gate for that reason.",
-          "Counting guards is not measuring defects caught. This entry does not claim the 118 guards prevented 118 problems."
+          "Counting guards is not measuring defects caught. This entry does not claim the 123 guards prevented 123 problems."
         ],
         "license": {
           "label": "CC BY 4.0",
           "url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "citation": "Bartak, J. (2026). Every Guard Must Prove It Can Stay Silent. Orbyt Labs Research, version 2.17.0. https://www.orbytlabs.ai/research/guard-harness",
+        "citation": "Bartak, J. (2026). Every Guard Must Prove It Can Stay Silent. Orbyt Labs Research, version 3.0.0. https://www.orbytlabs.ai/research/guard-harness",
         "published_on": "2026-08-27",
-        "revised": "2026-09-25",
+        "revised": "2026-11-14",
         "stage": "published"
       }
     },
@@ -477,16 +499,16 @@
       "slug": "confidently-wrong",
       "lane": "field-note",
       "status": "published",
-      "title": "96 Ways the Agents Were Confidently Wrong",
+      "title": "98 Ways the Agents Were Confidently Wrong",
       "canonical_url": "https://www.orbytlabs.ai/research/confidently-wrong",
       "target": "research",
       "path": "notes/2026/confidently-wrong.md",
       "first_published": "2026-08-27",
-      "revised": "2026-10-07",
-      "version": "1.1.0",
-      "tag": "confidently-wrong-v1.1.0",
-      "record_sha256": "857f6810d33d3aed1ecaf3b4c37c092d54697e9ce10a081930cc0af93384bd88",
-      "citation": "Bartak, J. (2026). 96 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, version 2.23.0. https://www.orbytlabs.ai/research/confidently-wrong",
+      "revised": "2026-11-14",
+      "version": "1.2.0",
+      "tag": "confidently-wrong-v1.2.0",
+      "record_sha256": "e112b14456b03feab285d5533d01164993778bb5eb7ca11a09853f6b3bc02e74",
+      "citation": "Bartak, J. (2026). 98 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, version 3.0.0. https://www.orbytlabs.ai/research/confidently-wrong",
       "history": [
         {
           "version": "1.0.0",
@@ -511,41 +533,61 @@
           "changed": [
             "published on"
           ]
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-11-14",
+          "kind": "minor",
+          "changed": [
+            "citation",
+            "claim",
+            "collection end",
+            "measured",
+            "measurement version from 2.23.0 to 3.0.0",
+            "measurement \"Distinct failures logged\" from 96 to 98",
+            "measurement \"Failures that raised NO error (silent)\" from 68 of 96 (71%) to 69 of 98 (70%)",
+            "measurement \"Failures with a countermeasure that exists in the tree\" from 72 of 96 (75%) to 74 of 98 (76%)",
+            "measurement \"Automated guards now in the repository\" from 118 to 123",
+            "measurement \"Average length of a logged failure\" from 491 words to 496 words",
+            "revision date from 2026-10-07 to 2026-11-14",
+            "sample size",
+            "title"
+          ]
         }
       ],
       "record": {
-        "title": "96 Ways the Agents Were Confidently Wrong",
+        "title": "98 Ways the Agents Were Confidently Wrong",
         "description": "A catalogue of every distinct failure this AI-run engineering org has logged, and the guard built in response to each. The dominant failure shape is not a crash. It is a system reporting success while doing nothing.",
-        "measured": "Census of the logged failure corpus, 2026-10-07.",
-        "claim": "Of 96 distinct engineering failures logged by an AI-run organization as of 2026-10-07, 68 of 96 (71%) raised no error at all and were found only because someone checked an artifact directly, and 72 of 96 (75%) have a named automated countermeasure that exists in the repository.",
-        "sample_size": "96 logged failures in one repository",
+        "measured": "Census of the logged failure corpus, 2026-11-14.",
+        "claim": "Of 98 distinct engineering failures logged by an AI-run organization as of 2026-11-14, 69 of 98 (70%) raised no error at all and were found only because someone checked an artifact directly, and 74 of 98 (76%) have a named automated countermeasure that exists in the repository.",
+        "sample_size": "98 logged failures in one repository",
         "collection_start": "2026-08-27",
-        "collection_end": "2026-10-07",
-        "measurement_version": "2.23.0",
+        "collection_end": "2026-11-14",
+        "measurement_version": "3.0.0",
         "measurements": [
           {
             "metric": "Distinct failures logged",
-            "value": "96",
+            "value": "98",
             "source": "docs/lessons-learned.md, numbered entries"
           },
           {
             "metric": "Failures that raised NO error (silent)",
-            "value": "68 of 96 (71%)",
+            "value": "69 of 98 (70%)",
             "source": "SILENT in scripts/refresh-research-notes.ts over each entry"
           },
           {
             "metric": "Failures with a countermeasure that exists in the tree",
-            "value": "72 of 96 (75%)",
+            "value": "74 of 98 (76%)",
             "source": "public/failure-corpus.json, field `mechanized_count`"
           },
           {
             "metric": "Automated guards now in the repository",
-            "value": "118",
-            "source": "ls scripts/check-*.cjs | wc -l"
+            "value": "123",
+            "source": "ls scripts/check-*.cjs scripts/check-*.ts | wc -l"
           },
           {
             "metric": "Average length of a logged failure",
-            "value": "491 words",
+            "value": "496 words",
             "source": "mean word count across the entries"
           }
         ],
@@ -567,9 +609,9 @@
           "label": "CC BY 4.0",
           "url": "https://creativecommons.org/licenses/by/4.0/"
         },
-        "citation": "Bartak, J. (2026). 96 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, version 2.23.0. https://www.orbytlabs.ai/research/confidently-wrong",
+        "citation": "Bartak, J. (2026). 98 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, version 3.0.0. https://www.orbytlabs.ai/research/confidently-wrong",
         "published_on": "2026-08-27",
-        "revised": "2026-10-07",
+        "revised": "2026-11-14",
         "stage": "published"
       }
     },

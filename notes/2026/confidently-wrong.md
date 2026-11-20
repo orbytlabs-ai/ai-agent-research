@@ -1,32 +1,32 @@
-# 96 Ways the Agents Were Confidently Wrong
+# 98 Ways the Agents Were Confidently Wrong
 
 A field note from Orbyt Labs Research, by Justin Bartak.
 
 Author: Justin Bartak, ORCID [0009-0005-2615-3624](https://orcid.org/0009-0005-2615-3624), Wikidata [Q139551829](https://www.wikidata.org/wiki/Q139551829). Organization: Orbyt Labs, Wikidata [Q139551916](https://www.wikidata.org/wiki/Q139551916), https://www.orbytlabs.ai.
 
-Version 1.1.0, content revised 2026-10-07. Measurement version 2.23.0, collected 2026-08-27 to 2026-10-07.
+Version 1.2.0, content revised 2026-11-14. Measurement version 3.0.0, collected 2026-08-27 to 2026-11-14.
 
 Canonical page: https://www.orbytlabs.ai/research/confidently-wrong
 
 ## Claim
 
-Of 96 distinct engineering failures logged by an AI-run organization as of 2026-10-07, 68 of 96 (71%) raised no error at all and were found only because someone checked an artifact directly, and 72 of 96 (75%) have a named automated countermeasure that exists in the repository.
+Of 98 distinct engineering failures logged by an AI-run organization as of 2026-11-14, 69 of 98 (70%) raised no error at all and were found only because someone checked an artifact directly, and 74 of 98 (76%) have a named automated countermeasure that exists in the repository.
 
 ## Measured
 
-Census of the logged failure corpus, 2026-10-07.
+Census of the logged failure corpus, 2026-11-14.
 
-Sample: 96 logged failures in one repository.
+Sample: 98 logged failures in one repository.
 
 ## Measurements
 
 | Metric | Value | Source in Orbyt's internal record |
 | --- | --- | --- |
-| Distinct failures logged | 96 | docs/lessons-learned.md, numbered entries |
-| Failures that raised NO error (silent) | 68 of 96 (71%) | SILENT in scripts/refresh-research-notes.ts over each entry |
-| Failures with a countermeasure that exists in the tree | 72 of 96 (75%) | public/failure-corpus.json, field `mechanized_count` |
-| Automated guards now in the repository | 118 | ls scripts/check-*.cjs \| wc -l |
-| Average length of a logged failure | 491 words | mean word count across the entries |
+| Distinct failures logged | 98 | docs/lessons-learned.md, numbered entries |
+| Failures that raised NO error (silent) | 69 of 98 (70%) | SILENT in scripts/refresh-research-notes.ts over each entry |
+| Failures with a countermeasure that exists in the tree | 74 of 98 (76%) | public/failure-corpus.json, field `mechanized_count` |
+| Automated guards now in the repository | 123 | ls scripts/check-*.cjs scripts/check-*.ts \| wc -l |
+| Average length of a logged failure | 496 words | mean word count across the entries |
 
 The sources name commands and files in Orbyt's private repository. They are records of how each number was taken, not links; the canonical page carries the published evidence: https://www.orbytlabs.ai/research/confidently-wrong
 
@@ -48,15 +48,15 @@ The sources name commands and files in Orbyt's private repository. They are reco
 
 ## How to cite
 
-Bartak, J. (2026). 96 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, measurement version 2.23.0. https://www.orbytlabs.ai/research/confidently-wrong
+Bartak, J. (2026). 98 Ways the Agents Were Confidently Wrong. Orbyt Labs Research, measurement version 3.0.0. https://www.orbytlabs.ai/research/confidently-wrong
 
 ```bibtex
 @misc{bartak2026confidentlywrong,
   author    = {Bartak, J.},
-  title     = {{96 Ways the Agents Were Confidently Wrong}},
+  title     = {{98 Ways the Agents Were Confidently Wrong}},
   year      = {2026},
   publisher = {Orbyt Labs Research},
-  note      = {Measurement version 2.23.0},
+  note      = {Measurement version 3.0.0},
   url       = {https://www.orbytlabs.ai/research/confidently-wrong}
 }
 ```
@@ -67,6 +67,7 @@ Corrections: report an error at https://www.orbytlabs.ai/contact. A corrected re
 
 ## Changelog
 
+- 1.2.0, content revised 2026-11-14 (minor): changed: citation; claim; collection end; measured; measurement version from 2.23.0 to 3.0.0; measurement "Distinct failures logged" from 96 to 98; measurement "Failures that raised NO error (silent)" from 68 of 96 (71%) to 69 of 98 (70%); measurement "Failures with a countermeasure that exists in the tree" from 72 of 96 (75%) to 74 of 98 (76%); measurement "Automated guards now in the repository" from 118 to 123; measurement "Average length of a logged failure" from 491 words to 496 words; revision date from 2026-10-07 to 2026-11-14; sample size; title
 - 1.1.0, content revised 2026-10-07 (minor): changed: published on
 - 1.0.1, content revised 2026-10-07 (patch): changed: claim; measured. Declared: presentation: dates rendered as ISO 8601; citation metadata added
 - 1.0.0, content revised 2026-10-07 (initial): first version of this record

@@ -5,7 +5,7 @@
   "files": [
     {
       "path": "CHANGELOG.md",
-      "sha256": "e70d04fba2ae689e655dfc8ff1a566f42f39b7c2a5b2a16f85a54b503b507690"
+      "sha256": "74ab018f40f9217bf6683391b73d6812e56e0153604d19f6c9e005447328865b"
     },
     {
       "path": "CITATION.cff",
@@ -17,11 +17,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "21a7fa23727916e90108c53d095ba971a5f7fcda9ad7bfb5d1c68052f1d631ef"
+      "sha256": "591dc1994772fc9d04c09bf3217159fb047c038285511b163d46adba48ed4b9d"
     },
     {
       "path": "index.json",
-      "sha256": "bd753b8ca474f0190677e8af9f48fa28e5f7edb7f21bc223f2c0dae1563d079d"
+      "sha256": "e198f7e7f5e296bb5e0333cc8511d4b2560b30ad67609ca12fc2f4ef6e49a950"
     },
     {
       "path": "notes/2026/agent-seat-completion.md",
@@ -33,7 +33,7 @@
     },
     {
       "path": "notes/2026/confidently-wrong.md",
-      "sha256": "80b33ab06c687ff1283d72917e7010366ca0a493c2a5dcb4366b05471a3e1dc8"
+      "sha256": "ac22d2967ccc1ddd3bf89356ff714c7fc22549f9ca9d25a981695f4f137229a0"
     },
     {
       "path": "notes/2026/did-the-machine-learn.md",
@@ -45,7 +45,7 @@
     },
     {
       "path": "notes/2026/guard-harness.md",
-      "sha256": "993d18ceaee5f94ff0ccdbc7844493dbd85740a90874602903cac09d9004eff6"
+      "sha256": "e5e96e15717142a4e9178cf6525836a629ce828cd1e66e040546adcaa83390ab"
     },
     {
       "path": "notes/2026/model-upgrade-trial.md",
@@ -341,7 +341,7 @@
     },
     {
       "path": "topics/field-notes.md",
-      "sha256": "6db3b70da934e44e8316747ef87db9df8606ad8bd5fe6a16c1eb6b8c4f944150"
+      "sha256": "2a0c6c7dc3ee20585bd072c375ba08cbb6293eb8996eba540f89818f5b3b5ed8"
     },
     {
       "path": "topics/papers.md",
