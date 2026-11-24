@@ -799,10 +799,10 @@
       "target": "research",
       "path": "notes/2026/model-upgrade-trial.md",
       "first_published": "2026-09-17",
-      "revised": "2026-10-03",
-      "version": "1.1.0",
-      "tag": "model-upgrade-trial-v1.1.0",
-      "record_sha256": "4182184462e582f138694dad99d81ba58d0a0fad662e30f2d300d1dbb3cfdaa3",
+      "revised": "2026-11-24",
+      "version": "1.2.0",
+      "tag": "model-upgrade-trial-v1.2.0",
+      "record_sha256": "b44c0010e88ab1ed39e59b39e8e35b9d4d3decdbaa8bd825fcf0274dcdffdb49",
       "citation": "Bartak, J. (2026). A Model Upgrade on a Frozen Dependency Review. Orbyt Labs Research, version 1.1.0. https://www.orbytlabs.ai/research/model-upgrade-trial",
       "history": [
         {
@@ -828,6 +828,14 @@
           "kind": "minor",
           "changed": [
             "published on"
+          ]
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-11-24",
+          "kind": "minor",
+          "changed": [
+            "revision date from 2026-10-03 to 2026-11-24"
           ]
         }
       ],
@@ -1037,7 +1045,7 @@
         },
         "citation": "Bartak, J. (2026). A Model Upgrade on a Frozen Dependency Review. Orbyt Labs Research, version 1.1.0. https://www.orbytlabs.ai/research/model-upgrade-trial",
         "published_on": "2026-09-17",
-        "revised": "2026-10-03",
+        "revised": "2026-11-24",
         "stage": "published"
       }
     },

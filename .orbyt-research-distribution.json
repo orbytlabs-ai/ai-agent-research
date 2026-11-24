@@ -5,7 +5,7 @@
   "files": [
     {
       "path": "CHANGELOG.md",
-      "sha256": "74ab018f40f9217bf6683391b73d6812e56e0153604d19f6c9e005447328865b"
+      "sha256": "829cef75e67cae2363a6e19d4718a01e19ec2db8bae31b523ccf5e90205febae"
     },
     {
       "path": "CITATION.cff",
@@ -17,11 +17,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "591dc1994772fc9d04c09bf3217159fb047c038285511b163d46adba48ed4b9d"
+      "sha256": "79cfc36ead4bc616681ccbee677e98f3ee3ae2d56612090232f34ff976aca446"
     },
     {
       "path": "index.json",
-      "sha256": "e198f7e7f5e296bb5e0333cc8511d4b2560b30ad67609ca12fc2f4ef6e49a950"
+      "sha256": "a70b87baefe7b071342a42881aa6581bb0d2b1aba779dac4e767ca51a3b044a6"
     },
     {
       "path": "notes/2026/agent-seat-completion.md",
@@ -49,7 +49,7 @@
     },
     {
       "path": "notes/2026/model-upgrade-trial.md",
-      "sha256": "c2c6b1629ca5d5f8d83775f44daa1ddfb37929736aa3cb20f9eeb1fd3fa3053f"
+      "sha256": "275dfae43b8e13ac73be2417446c57677d7e705367d7676b3ae9c583e44dc1d2"
     },
     {
       "path": "notes/2026/single-agent-vs-team.md",
@@ -373,7 +373,7 @@
     },
     {
       "path": "topics/field-notes.md",
-      "sha256": "2a0c6c7dc3ee20585bd072c375ba08cbb6293eb8996eba540f89818f5b3b5ed8"
+      "sha256": "bdb11946bc7858f506d2b952d8cc9c58dd19fa7868909c14d7456eb0c8e37963"
     },
     {
       "path": "topics/papers.md",
